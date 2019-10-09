@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="manaty_cv_pdf" pageWidth="712" pageHeight="612" orientation="Landscape" columnWidth="712" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="8737a2d3-f919-422e-adcf-c42f37f5644a">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 5_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 6_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="style1" style="table" mode="Opaque" backcolor="#000033" fontName="Arial" fontSize="11"/>
+	<style name="style2" backcolor="#C0C0C0"/>
+	<subDataset name="dataset" uuid="ae02da19-d2b5-4b4c-801f-cfb8737ebb53">
+		<queryString language="xPath">
+			<![CDATA[/User]]>
+		</queryString>
+	</subDataset>
+	<subDataset name="dataset1" uuid="7380a1ca-67b0-44ec-a741-321878cfaa97"/>
+	<parameter name="imagePath" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["D:\\\\"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="xPath">
+		<![CDATA[/User]]>
+	</queryString>
+	<field name="fullName" class="java.lang.String">
+		<fieldDescription><![CDATA[/User/fullName]]></fieldDescription>
+	</field>
+	<field name="country" class="java.lang.String">
+		<fieldDescription><![CDATA[/User/country]]></fieldDescription>
+	</field>
+	<field name="numberOfYears" class="java.lang.String">
+		<fieldDescription><![CDATA[/User/numberOfYears]]></fieldDescription>
+	</field>
+	<field name="misionTitle" class="java.lang.String">
+		<fieldDescription><![CDATA[misionTitle]]></fieldDescription>
+	</field>
+	<field name="description" class="java.lang.String">
+		<fieldDescription><![CDATA[description]]></fieldDescription>
+	</field>
+	<field name="missionDescription" class="java.lang.String">
+		<fieldDescription><![CDATA[missionDescription]]></fieldDescription>
+	</field>
+	<field name="job" class="java.lang.String">
+		<fieldDescription><![CDATA[/User/job]]></fieldDescription>
+	</field>
+	<variable name="totalMachines" class="java.lang.String" calculation="Count">
+		<variableExpression><![CDATA[$V{REPORT_COUNT}]]></variableExpression>
+	</variable>
+	<title>
+		<band height="209" splitType="Immediate">
+			<image scaleImage="FillFrame" vAlign="Top" isUsingCache="true">
+				<reportElement mode="Transparent" x="0" y="0" width="711" height="80" backcolor="#FFFFFF" uuid="1763344c-33b7-4860-8579-179052b7d2eb"/>
+				<imageExpression><![CDATA[$P{imagePath} + "/logo.PNG"]]></imageExpression>
+			</image>
+			<textField isBlankWhenNull="true">
+				<reportElement x="320" y="54" width="77" height="20" forecolor="#FFFFFF" uuid="fbcb64b6-1bde-4343-9871-c1990607f3cf"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{country}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="447" y="54" width="250" height="20" forecolor="#FFFFFF" uuid="5391ad26-d805-4c81-91e0-e23e055b9b62"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{numberOfYears} != null ? $F{numberOfYears} : "0")   +   " years of experience"]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement positionType="Float" isPrintRepeatedValues="false" mode="Transparent" x="268" y="25" width="271" height="20" forecolor="#FFFFFF" backcolor="#006666" uuid="c4f2db0e-41f2-4350-a874-30373cac7bfe"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{job}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="268" y="1" width="271" height="25" forecolor="#FFBE00" backcolor="#FFFFFF" uuid="314069a3-1a59-4e65-a472-a2a756a488ba"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="14" isBold="true" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fullName}.toUpperCase()]]></textFieldExpression>
+			</textField>
+			<subreport isUsingCache="true" runToBottom="true">
+				<reportElement style="style2" stretchType="RelativeToTallestObject" mode="Opaque" x="2" y="80" width="162" height="129" backcolor="#CCCCCC" uuid="523e35b4-2391-40f4-8a0e-4b7b33717224"/>
+				<subreportParameter name="levelParam"/>
+				<subreportParameter name="keyParam"/>
+				<dataSourceExpression><![CDATA[]]></dataSourceExpression>
+				<subreportExpression><![CDATA[$P{imagePath} + "/manaty_skills_subreport_pdf.jasper"]]></subreportExpression>
+			</subreport>
+			<subreport runToBottom="false">
+				<reportElement x="164" y="80" width="548" height="43" uuid="54237d39-060e-4a2a-976a-d58dc748ba0c"/>
+				<subreportParameter name="levelParam"/>
+				<subreportParameter name="keyParam"/>
+				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).dataSource("/User/missions/Mission")]]></dataSourceExpression>
+				<subreportExpression><![CDATA[$P{imagePath} + "/manaty_missions_subreport.jasper"]]></subreportExpression>
+			</subreport>
+			<subreport isUsingCache="true" runToBottom="false">
+				<reportElement positionType="Float" x="164" y="123" width="548" height="42" uuid="5e548bd0-3840-4fc8-a840-7a20f7db3c87"/>
+				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).dataSource("/User/courses/Course")]]></dataSourceExpression>
+				<subreportExpression><![CDATA[$P{imagePath} + "/manaty_courses_subreport.jasper"]]></subreportExpression>
+			</subreport>
+			<subreport isUsingCache="true" runToBottom="false">
+				<reportElement positionType="Float" x="164" y="165" width="548" height="43" uuid="debbe805-5948-4487-b046-ab062792dee3"/>
+				<dataSourceExpression><![CDATA[((net.sf.jasperreports.engine.data.JRXmlDataSource)$P{REPORT_DATA_SOURCE}).dataSource("/User/educations/Education")]]></dataSourceExpression>
+				<subreportExpression><![CDATA[$P{imagePath} + "/manaty_educations_subreport.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch">
+			<printWhenExpression><![CDATA[$V{PAGE_NUMBER} != 1]]></printWhenExpression>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="2" splitType="Stretch"/>
+	</detail>
+	<pageFooter>
+		<band splitType="Immediate"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Immediate"/>
+	</summary>
+</jasperReport>

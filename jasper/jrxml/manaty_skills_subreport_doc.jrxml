@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="manaty_skills_subreport_doc" language="groovy" pageWidth="842" pageHeight="1200" orientation="Landscape" columnWidth="842" leftMargin="0" rightMargin="0" topMargin="17" bottomMargin="0" isSummaryNewPage="true" uuid="480f1a9e-0e91-46c7-9003-49615bb23c50">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="style1" backcolor="#006666"/>
+	<style name="style2" forecolor="#C0C0C0"/>
+	<subDataset name="dataset1" uuid="5509f9c2-9e9f-4305-a80e-d32fcb51041e">
+		<queryString language="xPath">
+			<![CDATA[/User/skills/Skill]]>
+		</queryString>
+		<field name="code" class="java.lang.String">
+			<fieldDescription><![CDATA[@code]]></fieldDescription>
+		</field>
+		<field name="Proficiency" class="java.lang.String">
+			<fieldDescription><![CDATA[Proficiency]]></fieldDescription>
+		</field>
+	</subDataset>
+	<parameter name="levelParam" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="keyParam" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<queryString language="xPath">
+		<![CDATA[/User/skills/Skill]]>
+	</queryString>
+	<field name="code" class="java.lang.String">
+		<fieldDescription><![CDATA[@code]]></fieldDescription>
+	</field>
+	<field name="Proficiency" class="java.lang.String">
+		<fieldDescription><![CDATA[Proficiency]]></fieldDescription>
+	</field>
+	<columnHeader>
+		<band height="78">
+			<frame>
+				<reportElement style="style2" mode="Opaque" x="0" y="10" width="166" height="68" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" backcolor="#CCCCCC" uuid="ad1a3866-28e8-44bd-9a32-cbc4baa30920"/>
+				<staticText>
+					<reportElement style="style1" mode="Opaque" x="49" y="18" width="67" height="29" forecolor="#FFFFFF" uuid="08af7977-224b-4186-9218-5b4cfdb89fd7"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font fontName="SansSerif" size="14" isBold="true"/>
+					</textElement>
+					<text><![CDATA[SKILLS]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="49">
+			<frame>
+				<reportElement style="style1" mode="Opaque" x="0" y="0" width="166" height="49" backcolor="#CCCCCC" uuid="cccbe4ea-d92f-48ef-9f64-4f442f647cb2"/>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement positionType="Float" mode="Transparent" x="4" y="26" width="144" height="20" backcolor="#FFFFFF" uuid="77751135-9541-4727-a6e6-755d83b7f7fc"/>
+					<textElement>
+						<font fontName="Arial" size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{Proficiency}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement style="style1" mode="Transparent" x="4" y="3" width="144" height="20" isPrintWhenDetailOverflows="true" backcolor="#FFFFFF" uuid="66c54037-65ee-44cc-8b77-09fbfd21f88a"/>
+					<textElement>
+						<font fontName="Arial" size="12" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{code}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</detail>
+</jasperReport>

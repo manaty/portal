@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="manaty_educations_subreport" language="groovy" pageWidth="1200" pageHeight="842" orientation="Landscape" columnWidth="1160" leftMargin="20" rightMargin="20" topMargin="0" bottomMargin="20" uuid="480f1a9e-0e91-46c7-9003-49615bb23c50">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="style1" mode="Opaque" backcolor="#006666"/>
+	<subDataset name="dataset1" uuid="5509f9c2-9e9f-4305-a80e-d32fcb51041e">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+	</subDataset>
+	<queryString language="xPath">
+		<![CDATA[/User/educations/Education]]>
+	</queryString>
+	<field name="degreeTitle" class="java.lang.String">
+		<fieldDescription><![CDATA[@degreeTitle]]></fieldDescription>
+	</field>
+	<field name="university" class="java.lang.String">
+		<fieldDescription><![CDATA[university]]></fieldDescription>
+	</field>
+	<field name="years" class="java.lang.String">
+		<fieldDescription><![CDATA[years]]></fieldDescription>
+	</field>
+	<title>
+		<band/>
+	</title>
+	<columnHeader>
+		<band height="39">
+			<staticText>
+				<reportElement mode="Opaque" x="2" y="0" width="107" height="29" forecolor="#FFFFFF" backcolor="#006666" uuid="1f554793-b9b6-4907-9140-0000695ec4b7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[EDUCATION]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="56" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" x="2" y="0" width="500" height="20" uuid="66c54037-65ee-44cc-8b77-09fbfd21f88a"/>
+				<textElement textAlignment="Left" markup="none">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{degreeTitle}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="0" y="21" width="500" height="20" uuid="e97ec36a-31bc-40c3-ab00-c27319aef13d"/>
+				<textElement markup="html">
+					<font fontName="Arial" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>" + ($F{university} != null ? $F{university}: "") + "</b>" + " - " +($F{years} != null ?$F{years}:"")]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

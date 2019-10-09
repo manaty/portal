@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="manaty_courses_subreport" language="groovy" pageWidth="1200" pageHeight="842" orientation="Landscape" columnWidth="1160" leftMargin="20" rightMargin="20" topMargin="0" bottomMargin="20" uuid="480f1a9e-0e91-46c7-9003-49615bb23c50">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="style1"/>
+	<subDataset name="dataset1" uuid="5509f9c2-9e9f-4305-a80e-d32fcb51041e">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+	</subDataset>
+	<queryString language="xPath">
+		<![CDATA[/User/courses/Course]]>
+	</queryString>
+	<field name="period" class="java.lang.String">
+		<fieldDescription><![CDATA[period]]></fieldDescription>
+	</field>
+	<field name="courseTitle" class="java.lang.String">
+		<fieldDescription><![CDATA[@courseTitle]]></fieldDescription>
+	</field>
+	<columnHeader>
+		<band height="31">
+			<staticText>
+				<reportElement positionType="Float" mode="Opaque" x="0" y="0" width="178" height="29" forecolor="#FFFFFF" backcolor="#006666" uuid="bbb8ed9f-52a5-4494-a7f6-2f583b5e1a67"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[TRAININGS / SEMINARS]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="26" splitType="Immediate">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" x="0" y="6" width="500" height="20" isPrintWhenDetailOverflows="true" uuid="66c54037-65ee-44cc-8b77-09fbfd21f88a"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial" size="12" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>" + ($F{courseTitle} != null ? $F{courseTitle} : "" ) + "</b>" + " - " + ($F{period} != null ? $F{period} : "")]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
