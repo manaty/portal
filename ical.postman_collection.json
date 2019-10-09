@@ -1,0 +1,444 @@
+{
+	"info": {
+		"_postman_id": "8101e7bb-2030-4830-b6b1-03c32195d799",
+		"name": "ical",
+		"description": "ical model and serialisation service\n",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"item": [
+				{
+					"name": "Login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "81606899-040a-4cda-813d-3275ae195602",
+								"exec": [
+									"pm.test(\"response is ok\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.environment.get(\"variable_key\");",
+									"var json = pm.response.json();",
+									"var token = json[\"access_token\"];",
+									"var refreshToken = json[\"refresh_token\"]",
+									"pm.environment.set(\"access_token\", token);",
+									"pm.environment.set(\"refresh_token\", refreshToken);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "client_id",
+									"value": "meveo-web",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "meveo.admin",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "meveo",
+									"type": "text"
+								},
+								{
+									"key": "grant_type",
+									"value": "password",
+									"type": "text"
+								},
+								{
+									"key": "client_secret",
+									"value": "afe07e5a-68cb-4fb0-8b75-5b6053b07dc3",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{protocol}}://{{hostname}}:{{port}}/auth/realms/{{webContext}}/protocol/openid-connect/token",
+							"protocol": "{{protocol}}",
+							"host": [
+								"{{hostname}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"auth",
+								"realms",
+								"{{webContext}}",
+								"protocol",
+								"openid-connect",
+								"token"
+							]
+						},
+						"description": "Request Keycloak and get auth token"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Create CETs",
+			"item": [
+				{
+					"name": "CET VEVENT",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Event\",\n    \"code\": \"Event\",\n    \"description\": \"Event\",\n    \"customEntityCategoryCode\": \"ICAL\",\n    \"field\": [\n            {\n                \"code\": \"categories\",\n                \"description\": \"Categories\",\n                \"fieldType\": \"STRING\",\n                \"accountLevel\": \"CE_Event\",\n                \"appliesTo\": \"CE_Event\",\n                \"useInheritedAsDefaultValue\": false,\n                \"storageType\": \"LIST\",\n                \"valueRequired\": false,\n                \"versionable\": false,\n                \"triggerEndPeriodEvent\": false,\n                \"allowEdit\": true,\n                \"hideOnNew\": false,\n                \"maxValue\": 255,\n                \"contentTypes\": [],\n                \"fileExtensions\": [],\n                \"saveOnExplorer\": false,\n                \"guiPosition\": \"tab:Event:0;field:4\",\n                \"isUnique\": false,\n                \"isFilter\": false,\n                \"identifier\": false,\n                \"storages\": [\n                    \"SQL\"\n                ],\n                \"summary\": false\n            },\n            {\n                \"code\": \"description\",\n                \"description\": \"Description\",\n                \"fieldType\": \"TEXT_AREA\",\n                \"accountLevel\": \"CE_Event\",\n                \"appliesTo\": \"CE_Event\",\n                \"useInheritedAsDefaultValue\": false,\n                \"storageType\": \"SINGLE\",\n                \"valueRequired\": false,\n                \"versionable\": false,\n                \"triggerEndPeriodEvent\": false,\n                \"allowEdit\": true,\n                \"hideOnNew\": false,\n                \"contentTypes\": [],\n                \"fileExtensions\": [],\n                \"saveOnExplorer\": false,\n                \"guiPosition\": \"tab:Event:0;field:6\",\n                \"isUnique\": false,\n                \"isFilter\": false,\n                \"identifier\": false,\n                \"storages\": [\n                    \"SQL\"\n                ],\n                \"summary\": false\n            },\n            {\n                \"code\": \"dtend\",\n                \"description\": \"End date\",\n                \"fieldType\": \"DATE\",\n                \"accountLevel\": \"CE_Event\",\n                \"appliesTo\": \"CE_Event\",\n                \"useInheritedAsDefaultValue\": false,\n                \"storageType\": \"SINGLE\",\n                \"valueRequired\": false,\n                \"versionable\": false,\n                \"triggerEndPeriodEvent\": false,\n                \"allowEdit\": true,\n                \"hideOnNew\": false,\n                \"contentTypes\": [],\n                \"fileExtensions\": [],\n                \"saveOnExplorer\": false,\n                \"guiPosition\": \"tab:Event:0;field:1\",\n                \"isUnique\": false,\n                \"isFilter\": false,\n                \"identifier\": false,\n                \"storages\": [\n                    \"SQL\"\n                ],\n                \"summary\": false\n            },\n            {\n                \"code\": \"dtstart\",\n                \"description\": \"Start date\",\n                \"fieldType\": \"DATE\",\n                \"accountLevel\": \"CE_Event\",\n                \"appliesTo\": \"CE_Event\",\n                \"useInheritedAsDefaultValue\": false,\n                \"storageType\": \"SINGLE\",\n                \"valueRequired\": true,\n                \"versionable\": false,\n                \"triggerEndPeriodEvent\": false,\n                \"allowEdit\": true,\n                \"hideOnNew\": false,\n                \"contentTypes\": [],\n                \"fileExtensions\": [],\n                \"saveOnExplorer\": false,\n                \"guiPosition\": \"tab:Event:0;field:0\",\n                \"isUnique\": false,\n                \"isFilter\": false,\n                \"identifier\": false,\n                \"storages\": [\n                    \"SQL\"\n                ],\n                \"summary\": true\n            },\n            {\n                \"code\": \"location\",\n                \"description\": \"Location\",\n                \"fieldType\": \"TEXT_AREA\",\n                \"accountLevel\": \"CE_Event\",\n                \"appliesTo\": \"CE_Event\",\n                \"useInheritedAsDefaultValue\": false,\n                \"storageType\": \"SINGLE\",\n                \"valueRequired\": false,\n                \"versionable\": false,\n                \"triggerEndPeriodEvent\": false,\n                \"allowEdit\": true,\n                \"hideOnNew\": false,\n                \"contentTypes\": [],\n                \"fileExtensions\": [],\n                \"saveOnExplorer\": false,\n                \"guiPosition\": \"tab:Event:0;field:3\",\n                \"isUnique\": false,\n                \"isFilter\": false,\n                \"identifier\": false,\n                \"storages\": [\n                    \"SQL\"\n                ],\n                \"summary\": false\n            },\n            {\n                \"code\": \"sequence\",\n                \"description\": \"Sequence\",\n                \"fieldType\": \"LONG\",\n                \"accountLevel\": \"CE_Event\",\n                \"appliesTo\": \"CE_Event\",\n                \"defaultValue\": \"1\",\n                \"useInheritedAsDefaultValue\": false,\n                \"storageType\": \"SINGLE\",\n                \"valueRequired\": false,\n                \"versionable\": false,\n                \"triggerEndPeriodEvent\": false,\n                \"allowEdit\": true,\n                \"hideOnNew\": false,\n                \"contentTypes\": [],\n                \"fileExtensions\": [],\n                \"saveOnExplorer\": false,\n                \"guiPosition\": \"tab:Event:0;field:8\",\n                \"isUnique\": false,\n                \"isFilter\": false,\n                \"identifier\": false,\n                \"storages\": [\n                    \"SQL\"\n                ],\n                \"summary\": false\n            },\n            {\n                \"code\": \"status\",\n                \"description\": \"Status\",\n                \"fieldType\": \"LIST\",\n                \"accountLevel\": \"CE_Event\",\n                \"appliesTo\": \"CE_Event\",\n                \"defaultValue\": \"TENTATIVE\",\n                \"useInheritedAsDefaultValue\": false,\n                \"storageType\": \"SINGLE\",\n                \"valueRequired\": true,\n                \"versionable\": false,\n                \"triggerEndPeriodEvent\": false,\n                \"listValues\": {\n                    \"CANCELLED\": \"Cancelled\",\n                    \"CONFIRMED\": \"Confirmed\",\n                    \"TENTATIVE\": \"Tentative\"\n                },\n                \"allowEdit\": true,\n                \"hideOnNew\": false,\n                \"contentTypes\": [],\n                \"fileExtensions\": [],\n                \"saveOnExplorer\": false,\n                \"guiPosition\": \"tab:Event:0;field:5\",\n                \"isUnique\": false,\n                \"isFilter\": false,\n                \"identifier\": false,\n                \"storages\": [\n                    \"SQL\"\n                ],\n                \"summary\": false\n            },\n            {\n                \"code\": \"summary\",\n                \"description\": \"Summary\",\n                \"fieldType\": \"STRING\",\n                \"accountLevel\": \"CE_Event\",\n                \"appliesTo\": \"CE_Event\",\n                \"useInheritedAsDefaultValue\": false,\n                \"storageType\": \"SINGLE\",\n                \"valueRequired\": false,\n                \"versionable\": false,\n                \"triggerEndPeriodEvent\": false,\n                \"allowEdit\": true,\n                \"hideOnNew\": false,\n                \"maxValue\": 255,\n                \"contentTypes\": [],\n                \"fileExtensions\": [],\n                \"saveOnExplorer\": false,\n                \"guiPosition\": \"tab:Event:0;field:2\",\n                \"isUnique\": false,\n                \"isFilter\": false,\n                \"identifier\": false,\n                \"storages\": [\n                    \"SQL\"\n                ],\n                \"summary\": false\n            },\n            {\n                \"code\": \"transp\",\n                \"description\": \"Transparency of resource\",\n                \"fieldType\": \"LIST\",\n                \"accountLevel\": \"CE_Event\",\n                \"appliesTo\": \"CE_Event\",\n                \"defaultValue\": \"TRANSPARENT\",\n                \"useInheritedAsDefaultValue\": false,\n                \"storageType\": \"SINGLE\",\n                \"valueRequired\": false,\n                \"versionable\": false,\n                \"triggerEndPeriodEvent\": false,\n                \"listValues\": {\n                    \"OPAQUE\": \"Opaque\",\n                    \"TRANSPARENT\": \"Transparent\"\n                },\n                \"allowEdit\": true,\n                \"hideOnNew\": false,\n                \"contentTypes\": [],\n                \"fileExtensions\": [],\n                \"saveOnExplorer\": false,\n                \"guiPosition\": \"tab:Event:0;field:7\",\n                \"isUnique\": false,\n                \"isFilter\": false,\n                \"identifier\": false,\n                \"storages\": [\n                    \"SQL\"\n                ],\n                \"summary\": false\n            },\n             {\n                \"code\": \"eventlength\",\n                \"description\": \"Event length\",\n                \"fieldType\": \"LONG\",\n                \"accountLevel\": \"CE_Event\",\n                \"appliesTo\": \"CE_Event\",\n                \"defaultValue\": \"1\",\n                \"useInheritedAsDefaultValue\": false,\n                \"storageType\": \"SINGLE\",\n                \"valueRequired\": false,\n                \"versionable\": false,\n                \"triggerEndPeriodEvent\": false,\n                \"allowEdit\": true,\n                \"hideOnNew\": false,\n                \"contentTypes\": [],\n                \"fileExtensions\": [],\n                \"saveOnExplorer\": false,\n                \"guiPosition\": \"tab:Event:0;field:9\",\n                \"isUnique\": false,\n                \"isFilter\": false,\n                \"identifier\": false,\n                \"storages\": [\n                    \"SQL\"\n                ],\n                \"summary\": false\n            },\n             {\n                \"code\": \"rectype\",\n                \"description\": \"Rec type\",\n                \"fieldType\": \"STRING\",\n                \"accountLevel\": \"CE_Event\",\n                \"appliesTo\": \"CE_Event\",\n                \"defaultValue\": \"1\",\n                \"useInheritedAsDefaultValue\": false,\n                \"storageType\": \"SINGLE\",\n                \"valueRequired\": false,\n                \"versionable\": false,\n                \"triggerEndPeriodEvent\": false,\n                \"allowEdit\": true,\n                \"hideOnNew\": false,\n                \"contentTypes\": [],\n                \"fileExtensions\": [],\n                \"saveOnExplorer\": false,\n                \"guiPosition\": \"tab:Event:0;field:10\",\n                \"isUnique\": false,\n                \"isFilter\": false,\n                \"identifier\": false,\n                \"storages\": [\n                    \"SQL\"\n                ],\n                \"summary\": false\n            }, {\n                \"code\": \"class\",\n                \"description\": \"Class\",\n                \"fieldType\": \"LIST\",\n                \"accountLevel\": \"CE_Event\",\n                \"appliesTo\": \"CE_Event\",\n                \"defaultValue\": \"1\",\n                \"useInheritedAsDefaultValue\": false,\n                \"storageType\": \"SINGLE\",\n                \"valueRequired\": true,\n                \"versionable\": false,\n                \"triggerEndPeriodEvent\": false,\n                \"listValues\": {\n                    \"PRIVATE\": \"Private\",\n                    \"PUBLIC\": \"Public\"\n                    \n                },\n                \"allowEdit\": true,\n                \"hideOnNew\": false,\n                \"contentTypes\": [],\n                \"fileExtensions\": [],\n                \"saveOnExplorer\": false,\n                \"guiPosition\": \"tab:Event:0;field:11\",\n                \"isUnique\": false,\n                \"isFilter\": false,\n                \"identifier\": false,\n                \"storages\": [\n                    \"SQL\"\n                ],\n                \"summary\": false\n            },\n            {\n\t\t\t\"code\": \"viewers\",\n\t\t\t\"description\": \"viewers\",\n\t\t\t\"fieldType\": \"CHILD_ENTITY\",\n\t\t\t\"accountLevel\": \"CE_Event\",\n\t\t\t\"appliesTo\": \"CE_Event\",\n\t\t\t\"useInheritedAsDefaultValue\": false,\n\t\t\t\"storageType\": \"LIST\",\n\t\t\t\"valueRequired\": false,\n\t\t\t\"versionable\": false,\n\t\t\t\"triggerEndPeriodEvent\": false,\n\t\t\t\"entityClazz\": \"org.meveo.model.admin.User\",\n\t\t\t\"allowEdit\": true,\n\t\t\t\"hideOnNew\": false,\n\t\t\t\"guiPosition\": \"tab:Event:0;field:12\",\n\t\t\t\"isUnique\": false,\n\t\t\t\"isFilter\": false,\n\t\t\t\"identifier\": false\n\t\t\t}\n        ],\n    \"availableStorages\": [\n    ]\n}"
+						},
+						"url": {
+							"raw": "{{protocol}}://{{hostname}}:{{port}}/{{webContext}}/api/rest/entityCustomization/cet/createOrUpdate",
+							"protocol": "{{protocol}}",
+							"host": [
+								"{{hostname}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"{{webContext}}",
+								"api",
+								"rest",
+								"entityCustomization",
+								"cet",
+								"createOrUpdate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CET ORG_CHART",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "application/json"
+							},
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"Org_Chart\",\n    \"code\": \"ORG_CHART\",\n    \"description\": \"Org_Chart \",\n    \"customEntityCategoryCode\": \"ICAL\",\n    \"field\": [\n            {\n                \"code\": \"title\",\n                \"description\": \"Title\",\n                \"fieldType\": \"STRING\",\n                \"accountLevel\": \"CE_ORG_CHART\",\n                \"appliesTo\": \"CE_ORG_CHART\",\n                \"useInheritedAsDefaultValue\": false,\n                \"storageType\": \"SINGLE\",\n                \"valueRequired\": false,\n                \"versionable\": false,\n                \"triggerEndPeriodEvent\": false,\n                \"allowEdit\": true,\n                \"hideOnNew\": false,\n                \"maxValue\": 255,\n                \"contentTypes\": [],\n                \"fileExtensions\": [],\n                \"saveOnExplorer\": false,\n                \"guiPosition\": \"tab:Event:0;field:0\",\n                \"isUnique\": false,\n                \"isFilter\": false,\n                \"identifier\": false,\n                \"storages\": [\n                    \"SQL\"\n                ],\n                \"summary\": false\n            },\n            {\n                \"code\": \"from\",\n                \"description\": \"From\",\n                \"fieldType\": \"STRING\",\n                \"accountLevel\": \"CE_ORG_CHART\",\n                \"appliesTo\": \"CE_ORG_CHART\",\n                \"useInheritedAsDefaultValue\": false,\n                \"storageType\": \"SINGLE\",\n                \"valueRequired\": false,\n                \"versionable\": false,\n                \"triggerEndPeriodEvent\": false,\n                \"allowEdit\": true,\n                \"hideOnNew\": false,\n                \"contentTypes\": [],\n                \"fileExtensions\": [],\n                \"saveOnExplorer\": false,\n                \"guiPosition\": \"tab:Event:0;field:1\",\n                \"isUnique\": false,\n                \"isFilter\": false,\n                \"identifier\": false,\n                \"storages\": [\n                    \"SQL\"\n                ],\n                \"summary\": false\n            },\n            {\n                \"code\": \"to\",\n                \"description\": \"To\",\n                \"fieldType\": \"STRING\",\n                \"accountLevel\": \"CE_ORG_CHART\",\n                \"appliesTo\": \"CE_ORG_CHART\",\n                \"useInheritedAsDefaultValue\": false,\n                \"storageType\": \"SINGLE\",\n                \"valueRequired\": false,\n                \"versionable\": false,\n                \"triggerEndPeriodEvent\": false,\n                \"allowEdit\": true,\n                \"hideOnNew\": false,\n                \"contentTypes\": [],\n                \"fileExtensions\": [],\n                \"saveOnExplorer\": false,\n                \"guiPosition\": \"tab:Event:0;field:2\",\n                \"isUnique\": false,\n                \"isFilter\": false,\n                \"identifier\": false,\n                \"storages\": [\n                    \"SQL\"\n                ],\n                \"summary\": false\n            },\n            {\n                \"code\": \"line\",\n                \"description\": \"Line\",\n                \"fieldType\": \"STRING\",\n                \"accountLevel\": \"CE_ORG_CHART\",\n                \"appliesTo\": \"CE_ORG_CHART\",\n                \"useInheritedAsDefaultValue\": false,\n                \"storageType\": \"SINGLE\",\n                \"valueRequired\": true,\n                \"versionable\": false,\n                \"triggerEndPeriodEvent\": false,\n                \"allowEdit\": true,\n                \"hideOnNew\": false,\n                \"contentTypes\": [],\n                \"fileExtensions\": [],\n                \"saveOnExplorer\": false,\n                \"guiPosition\": \"tab:Event:0;field:3\",\n                \"isUnique\": false,\n                \"isFilter\": false,\n                \"identifier\": false,\n                \"storages\": [\n                    \"SQL\"\n                ],\n                \"summary\": true\n            }\n        ],\n    \"availableStorages\": [\n    ]\n}"
+						},
+						"url": {
+							"raw": "{{protocol}}://{{hostname}}:{{port}}/{{webContext}}/api/rest/entityCustomization/cet/createOrUpdate",
+							"protocol": "{{protocol}}",
+							"host": [
+								"{{hostname}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"{{webContext}}",
+								"api",
+								"rest",
+								"entityCustomization",
+								"cet",
+								"createOrUpdate"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get CET VEVENT",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{protocol}}://{{hostname}}:{{port}}/investigation-core/api/rest/entityCustomization/entity/VEVENT",
+							"protocol": "{{protocol}}",
+							"host": [
+								"{{hostname}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"investigation-core",
+								"api",
+								"rest",
+								"entityCustomization",
+								"entity",
+								"VEVENT"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Insert data",
+			"item": [
+				{
+					"name": "Insert VEVENT",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[\n    {\n        \"uuid\": \"06e6a6ad-c43e-4962-b24e-12c7f137a9a3\",\n        \"LOCATION\": \"Paris\",\n        \"TRANSP\": \"TRANSPARENT\",\n        \"STATUS\": \"TENTATIVE\",\n        \"SUMMARY\": \"Fete nat\",\n        \"DESCRIPTION\": \"Fete nationale\",\n        \"DTSTART\": 1563055200000,\n        \"SEQUENCE\": 2,\n        \"CATEGORIES\": [\n            \"FETE\",\n            \"FRANCE\"\n        ],\n        \"DTEND\": 1563141599000\n    }\n]"
+						},
+						"url": {
+							"raw": "https://{{hostname}}:{{port}}/investigation-core/api/rest/{{missionId}}/persistence",
+							"protocol": "https",
+							"host": [
+								"{{hostname}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"investigation-core",
+								"api",
+								"rest",
+								"{{missionId}}",
+								"persistence"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Insert VEVENT1",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[\n    {\n        \"uuid\": \"06e6a6ad-c43e-4962-b24e-12c7f137a9a3\",\n        \"LOCATION\": \"Paris\",\n        \"TRANSP\": \"TRANSPARENT\",\n        \"STATUS\": \"TENTATIVE\",\n        \"SUMMARY\": \"Fete nat\",\n        \"DESCRIPTION\": \"Fete nationale\",\n        \"DTSTART\": 1563055200000,\n        \"SEQUENCE\": 2,\n        \"CATEGORIES\": [\n            \"FETE\",\n            \"FRANCE\"\n        ],\n        \"DTEND\": 1563141599000\n    }\n]"
+						},
+						"url": {
+							"raw": "https://{{hostname}}:{{port}}/investigation-core/api/rest/{{missionId}}/persistence",
+							"protocol": "https",
+							"host": [
+								"{{hostname}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"investigation-core",
+								"api",
+								"rest",
+								"{{missionId}}",
+								"persistence"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Insert Event1",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n      \"code\": \"event1\",\r\n      \"description\": \"event1\",\r\n      \"cetCode\": \"Event\",\r\n      \"disabled\": false,\r\n      \"customFields\": {\r\n        \"customField\": [\r\n          {\r\n            \"code\": \"categories\",\r\n            \"value\": [{\"value\":\"FETE\"},{\"value\":\"FRANCE\"}]\r\n          },\r\n           {\r\n            \"code\": \"description\",\r\n            \"stringValue\":\"Fete nationale\"\r\n          },\r\n          {\r\n            \"code\": \"dtend\",\r\n            \"dateValue\":1563141599000\r\n          },\r\n          {\r\n            \"code\": \"dtstart\",\r\n            \"dateValue\":1563055200000\r\n          },\r\n          {\r\n            \"code\": \"location\",\r\n            \"stringValue\":\"Paris\"\r\n          },\r\n           {\r\n            \"code\": \"sequence\",\r\n            \"longValue\":2\r\n          },\r\n          {\r\n            \"code\": \"status\",\r\n            \"stringValue\":\"TENTATIVE\"\r\n          },\r\n           {\r\n            \"code\": \"summary\",\r\n            \"stringValue\":\"Fete nat\"\r\n          },\r\n           {\r\n            \"code\": \"transp\",\r\n            \"stringValue\":\"OPAQUE\"\r\n          },\r\n           {\r\n            \"code\": \"eventlength\",\r\n            \"longValue\":3600\r\n          },\r\n            {\r\n            \"code\": \"rectype\",\r\n            \"stringValue\":\"week_1___1,2\"\r\n          },\r\n           {\r\n            \"code\": \"class\",\r\n            \"stringValue\":\"PRIVATE\"\r\n          }\r\n          ]\r\n      }\r\n}\r\n"
+						},
+						"url": {
+							"raw": "https://{{hostname}}:{{port}}/investigation-core/api/rest/{{missionId}}/persistence",
+							"protocol": "https",
+							"host": [
+								"{{hostname}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"investigation-core",
+								"api",
+								"rest",
+								"{{missionId}}",
+								"persistence"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Filters test",
+			"item": [
+				{
+					"name": "Retrieve VEVENTs",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "7d807fbd-cab5-4b74-8fd5-fb86bd2d37f3",
+								"exec": [
+									"var jsonData = pm.response.json();",
+									"",
+									"pm.test(\"neojValue and sqlValue has been returned\", function () {",
+									"    pm.expect(jsonData[0].sqlValue).to.eql(\"MySqlValue\");",
+									"});",
+									"",
+									"var uuid = jsonData[0].uuid || jsonData[0].meveo_uuid;",
+									"pm.globals.set(\"NeoSqlCetId\", uuid);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{access_token}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\t\"filters\" : {\r\t}\r} "
+						},
+						"url": {
+							"raw": "https://{{hostname}}:{{port}}/investigation-core/api/rest/{{missionId}}/persistence/VEVENT/list",
+							"protocol": "https",
+							"host": [
+								"{{hostname}}"
+							],
+							"port": "{{port}}",
+							"path": [
+								"investigation-core",
+								"api",
+								"rest",
+								"{{missionId}}",
+								"persistence",
+								"VEVENT",
+								"list"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
