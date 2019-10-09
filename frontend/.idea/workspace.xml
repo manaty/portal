@@ -1,0 +1,1440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/meveo/pages/elements/UserPopup.jsx" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="db659992-403d-44de-aefb-f2a36b37b625" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/ext-lib/css/bootstrapnew/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/css/bootstrapnew/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/css/bootstrapnew/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/css/bootstrapnew/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/css/bootstrapnew/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/css/bootstrapnew/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/css/bootstrapnew/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/css/bootstrapnew/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/css/bootstrapnew/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/css/bootstrapnew/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/css/bootstrapnew/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/css/bootstrapnew/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/css/bootstrapnew/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/css/bootstrapnew/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/css/bootstrapnew/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/css/bootstrapnew/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/css/bootstrapnew/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-100.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-100.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-100.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-100.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-100.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-100Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-100Italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-100Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-100Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-100Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-300.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-300.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-300.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-300.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-300.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-300Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-300Italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-300Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-300Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-300Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-500.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-500.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-500.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-500.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-500.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-500Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-500Italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-500Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-500Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-500Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-700.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-700.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-700.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-700.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-700.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-700Italic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-700Italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-700Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-700Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/MuseoSans-700Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext-lib/font/museo/museo.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/home/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/bold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/corner1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/corner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/editTest1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/editTest2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/editText.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/empty_skill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/linkein.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/list1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/move-down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/move-up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/move.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/move_skill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/row.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/skype.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/viewlinkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/vig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/icon/vig1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/actions/UserProfileAction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/model/Password.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/model/Project.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/pages/MenuComponent.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/pages/elements/ProjectPopupAssemblaLink.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/pages/elements/ProjectPopupClient.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/pages/elements/ProjectPopupImage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/pages/elements/ProjectPopupTeam.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/pages/elements/RichEditor.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/pages/elements/UserPopup.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/pages/elements/UserPopupAvailability.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/pages/elements/UserPopupBio.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/pages/elements/UserPopupCourses.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/pages/elements/UserPopupProjects.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/pages/elements/UserPopupSkills.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/pages/user/Mobile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/pages/user/SeeProfile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/pages/user/SeeProjects.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/pages/user/UserProfile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/pages/user/UserProfileInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/pages/user/UserProjectInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/pages/user/UserProjects.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/pages/user/UserTeam.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/pages/user/UserTeamInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/shared/Icon.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/stores/AllProjectStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/stores/AllStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/stores/PasswordStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/meveo/stores/ProjectStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stylesheet/dhtmlxscheduler.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stylesheet/diagram-editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stylesheet/diagram.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stylesheet/manaty-profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stylesheet/manaty-project.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stylesheet/manaty-team.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stylesheet/reacttab.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stylesheet/rich.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VPP-API-soapui-project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext-lib/admin_properties.js" beforeDir="false" afterPath="$PROJECT_DIR$/ext-lib/admin_properties.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext-lib/css/alchemy.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/ext-lib/css/alchemy.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext-lib/css/bootstrap/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/ext-lib/css/bootstrap/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext-lib/css/react-select.css" beforeDir="false" afterPath="$PROJECT_DIR$/ext-lib/css/react-select.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/investors/bourgogne-angels.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/investors/capinnovest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/mail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keycloak.json" beforeDir="false" afterPath="$PROJECT_DIR$/keycloak.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/MeveoAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/MeveoAPI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/actions/ActionMethods.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/actions/ActionMethods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/actions/CasesActions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/actions/DataActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/actions/DataActions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/actions/InvestigationActions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/actions/MapActions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/model/CaseHit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/model/Investigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/model/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/model/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/pages/FooterComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/pages/FooterComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/pages/HeaderComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/pages/HeaderComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/pages/MainComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/pages/MainComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/pages/elements/CaseAttachableHit.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/pages/elements/CaseCompany.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/pages/elements/CaseHits.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/pages/elements/CaseInfo.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/pages/elements/CaseMachines.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/pages/elements/CaseReport.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/pages/elements/FrozenCases.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/pages/elements/GoogleMap.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/pages/elements/HitForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/pages/elements/caseMergeableMachines.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/pages/public/IndexComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/pages/public/IndexComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/pages/user/CaseDetails.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/pages/user/CasesList.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/pages/user/CasesMain.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/pages/user/CasesToClose.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/services/BaseService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/services/BaseService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/services/CasesService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/services/UserProfileService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/services/DataService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/services/DataService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/services/InvestigationService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/services/LocalStorageService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/services/LocalStorageService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/services/MapService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/stores/CaseStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/stores/InvestigationStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/stores/MapStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/stores/PollingStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/stores/SearchStore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/properties.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/properties.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/about.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/accordion.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/cases.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet/cases.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/graph-page.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/graph-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/guest.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/homepage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/howitwork.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/icons-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet/icons-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/media-queries.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/myaccount.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/response.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/search.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/signup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet/vendor.css" beforeDir="false" />
+    </list>
+    <ignored path="caseprediction.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="caseprediction" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProfileInfo.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="535">
+              <caret line="505" column="50" lean-forward="true" selection-start-line="505" selection-start-column="50" selection-end-line="505" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+                <element signature="n#Vocations#0" />
+                <element signature="n#Projects#0" />
+                <element signature="n#Educations#0" />
+                <element signature="n#Courses#0" />
+                <element signature="n#Skills#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stylesheet/manaty-profile.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="1648" column="14" selection-start-line="1648" selection-start-column="9" selection-end-line="1648" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/ChangePassword.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2482">
+              <caret line="156" column="50" selection-start-line="156" selection-start-column="35" selection-end-line="156" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/meveo/pages/elements/UserPopupMissionRemove.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProfile.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stylesheet/manaty-project.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="918" column="22" lean-forward="true" selection-start-line="918" selection-start-column="22" selection-end-line="918" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/SeeProfile.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="389" selection-start-line="389" selection-end-line="389" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/meveo/pages/elements/UserPopupCourses.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2550">
+              <caret line="154" column="103" selection-start-line="154" selection-start-column="103" selection-end-line="154" selection-end-column="103" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>longDescription</find>
+      <find>client</find>
+      <find>projectSee</find>
+      <find>generateCVExport</find>
+      <find>generate_CV_success</find>
+      <find>generate</find>
+      <find>upload</find>
+      <find>generateCV</find>
+      <find>cvBase64</find>
+      <find>calendar_icon</find>
+      <find>.ip_skill</find>
+      <find>.select_pro_profile</find>
+      <find>.input_projects</find>
+      <find>.input-group.input.form-control</find>
+      <find>userDetailOnUpdate</find>
+      <find>TEAM</find>
+      <find>currentPassword</find>
+      <find>tabsli</find>
+      <find>profile_manaty</find>
+      <find>.name_header &gt; span &gt;label</find>
+      <find>name_header</find>
+      <find>empty</find>
+      <find>profile_infomation</find>
+      <find>my_profile</find>
+      <find>table_profile</find>
+      <find>manat</find>
+      <find>boder_header</find>
+      <find>name_header</find>
+      <find>hideScrollBar</find>
+      <find>row</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>font-family: 'MuseoSans', sans-serif;</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\Project\manaty\src\meveo\actions</dir>
+      <dir>D:\1.Thu muc\manaty</dir>
+      <dir>D:\projects\manaty\manaty</dir>
+      <dir>D:\projects\manaty\frontend\manaty\stylesheet</dir>
+      <dir>D:\projects\manaty\frontend\manaty</dir>
+      <dir>D:\projects\manaty\frontend\manaty\src</dir>
+    </dirStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/meveo/pages/Scheduler.js" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/App.jsx" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/LoadGantt.jsx" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/components/Gantt.jsx" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/components/index.jsx" />
+        <option value="$PROJECT_DIR$/stylesheet/scheduler.css" />
+        <option value="$PROJECT_DIR$/stylesheet/dhtmlxschduler.css" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/components/Messages.jsx" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/components/LoadGantt.jsx" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/components/App.jsx" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/codebase/diagram.css" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/components/Dhtmlx.jsx" />
+        <option value="$PROJECT_DIR$/stylesheet/dhtmlxscheduler.css" />
+        <option value="$PROJECT_DIR$/stylesheet/diagram.css" />
+        <option value="$PROJECT_DIR$/ext-lib/css/alchemy.min.css" />
+        <option value="$PROJECT_DIR$/stylesheet/app.css" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/properties.js" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/components/Scheduler.jsx" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/HeaderComponent.jsx" />
+        <option value="$PROJECT_DIR$/ext-lib/codebase/diagram.js" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/components/DiagramEditor.jsx" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/components/Diagram.jsx" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/elements/UserPopupRemove.jsx" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/elements/UserPopupBio.jsx" />
+        <option value="$PROJECT_DIR$/stylesheet/cases.css" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/MenuComponent.jsx" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/elements/UserPopupMissionRemove.jsx" />
+        <option value="$PROJECT_DIR$/src/meveo/shared/Icon.jsx" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/elements/UserPopupMission.jsx" />
+        <option value="$PROJECT_DIR$/stylesheet/rich.css" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/user/SeeProjects.jsx" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/elements/ProjectPopupClient.jsx" />
+        <option value="$PROJECT_DIR$/src/meveo/model/Project.js" />
+        <option value="$PROJECT_DIR$/src/meveo/services/UserProfileService.js" />
+        <option value="$PROJECT_DIR$/src/meveo/services/BaseService.js" />
+        <option value="$PROJECT_DIR$/src/meveo/MeveoAPI.js" />
+        <option value="$PROJECT_DIR$/src/meveo/actions/ActionMethods.js" />
+        <option value="$PROJECT_DIR$/src/meveo/actions/UserProfileAction.js" />
+        <option value="$PROJECT_DIR$/src/meveo/stores/UserStore.js" />
+        <option value="$PROJECT_DIR$/stylesheet/reacttab.css" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/user/ChangePassword.jsx" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/user/UserProjectInfo.jsx" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/user/UserTeamInfo.jsx" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/user/SeeProfile.jsx" />
+        <option value="$PROJECT_DIR$/stylesheet/manaty-profile.css" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/user/UserProfileInfo.jsx" />
+        <option value="$PROJECT_DIR$/stylesheet/manaty-project.css" />
+        <option value="$PROJECT_DIR$/stylesheet/manaty-team.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>ImplicitTypeConversion</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="caseprediction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manaty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caseprediction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manaty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caseprediction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manaty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="meveo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caseprediction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manaty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="meveo" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caseprediction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manaty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="meveo" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caseprediction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manaty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="meveo" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caseprediction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manaty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="meveo" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caseprediction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manaty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="meveo" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caseprediction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manaty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="meveo" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caseprediction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manaty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="meveo" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caseprediction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="manaty" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheet" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FullScreen" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="LayoutCode.rearrangeEntriesPlain text" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="termina&#9;ACTION&#9;ActivateTerminalToolWindow" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570551340808" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../test/manaty" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="options.lastSelected" value="Settings.JavaScript" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\manaty\ext-lib\css\bootstrapnew\js" />
+      <recent name="D:\Project\manaty\images\icon" />
+      <recent name="D:\Project\manaty\src\meveo\pages\user" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\manaty\frontend\manaty\ext-lib\font" />
+      <recent name="D:\projects\manaty\frontend\manaty\src\meveo\shared" />
+      <recent name="D:\projects\manaty\frontend\manaty\src\meveo\pages\elements" />
+      <recent name="D:\projects\manaty\frontend\manaty\stylesheet" />
+      <recent name="D:\projects\manaty\frontend\manaty\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="false" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db659992-403d-44de-aefb-f2a36b37b625" name="Default" comment="" />
+      <created>1532524546878</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532524546878</updated>
+      <workItem from="1532524547775" duration="100000" />
+      <workItem from="1536319602542" duration="2015000" />
+      <workItem from="1536804490220" duration="3010000" />
+      <workItem from="1536812163910" duration="4270000" />
+      <workItem from="1536826142540" duration="16797000" />
+      <workItem from="1536894098473" duration="1909000" />
+      <workItem from="1536898351991" duration="2611000" />
+      <workItem from="1536902539273" duration="56000" />
+      <workItem from="1536902659493" duration="311000" />
+      <workItem from="1537071034495" duration="1606000" />
+      <workItem from="1537073101275" duration="25703000" />
+      <workItem from="1537154409400" duration="823000" />
+      <workItem from="1537157409747" duration="33114000" />
+      <workItem from="1537232142929" duration="9192000" />
+      <workItem from="1537242624148" duration="34617000" />
+      <workItem from="1537326753283" duration="29527000" />
+      <workItem from="1537410444154" duration="36617000" />
+      <workItem from="1537498470028" duration="20581000" />
+      <workItem from="1537544810136" duration="60000" />
+      <workItem from="1537611076623" duration="3915000" />
+      <workItem from="1537626690626" duration="2094000" />
+      <workItem from="1537668893990" duration="24324000" />
+      <workItem from="1537805284313" duration="1260000" />
+      <workItem from="1537847206148" duration="729000" />
+      <workItem from="1537848057601" duration="24855000" />
+      <workItem from="1537941761118" duration="692000" />
+      <workItem from="1537943985457" duration="9693000" />
+      <workItem from="1537954505635" duration="1556000" />
+      <workItem from="1537956657867" duration="681000" />
+      <workItem from="1538029200569" duration="24995000" />
+      <workItem from="1538130298038" duration="7307000" />
+      <workItem from="1538161707662" duration="12441000" />
+      <workItem from="1538239764593" duration="11116000" />
+      <workItem from="1538357018344" duration="36396000" />
+      <workItem from="1538421115334" duration="87314000" />
+      <workItem from="1538831792554" duration="23480000" />
+      <workItem from="1538919778763" duration="136248000" />
+      <workItem from="1539227563895" duration="49936000" />
+      <workItem from="1539420602988" duration="198054000" />
+      <workItem from="1539888914356" duration="211000" />
+      <workItem from="1539889207190" duration="26764000" />
+      <workItem from="1540049397747" duration="88479000" />
+      <workItem from="1540485280454" duration="26468000" />
+      <workItem from="1540600862858" duration="42000" />
+      <workItem from="1540794728175" duration="87265000" />
+      <workItem from="1541138426029" duration="22608000" />
+      <workItem from="1541378530418" duration="84260000" />
+      <workItem from="1541597126588" duration="4898000" />
+      <workItem from="1541608083625" duration="1337000" />
+      <workItem from="1541648054094" duration="59096000" />
+      <workItem from="1541958188413" duration="63556000" />
+      <workItem from="1542167549158" duration="72912000" />
+      <workItem from="1542526138237" duration="122407000" />
+      <workItem from="1543212322337" duration="89855000" />
+      <workItem from="1543557075349" duration="24694000" />
+      <workItem from="1543734419551" duration="4292000" />
+      <workItem from="1543762172818" duration="5180000" />
+      <workItem from="1543811098085" duration="24829000" />
+      <workItem from="1543905247845" duration="53182000" />
+      <workItem from="1544161093294" duration="25303000" />
+      <workItem from="1544421068484" duration="114976000" />
+      <workItem from="1544694938260" duration="58982000" />
+      <workItem from="1544811642935" duration="8145000" />
+      <workItem from="1544976043517" duration="38197000" />
+      <workItem from="1545317382298" duration="772000" />
+      <workItem from="1545373212561" duration="42755000" />
+      <workItem from="1545667132006" duration="21484000" />
+      <workItem from="1545822872340" duration="46776000" />
+      <workItem from="1546863729144" duration="5284000" />
+      <workItem from="1546870688401" duration="3639000" />
+      <workItem from="1546880071714" duration="1196000" />
+      <workItem from="1546928274639" duration="18796000" />
+      <workItem from="1547309499992" duration="592000" />
+      <workItem from="1547370739862" duration="12983000" />
+      <workItem from="1547465809009" duration="275000" />
+      <workItem from="1547480697337" duration="172000" />
+      <workItem from="1547796817335" duration="75000" />
+      <workItem from="1547807514203" duration="6883000" />
+      <workItem from="1547871503884" duration="2718000" />
+      <workItem from="1547900522257" duration="4158000" />
+      <workItem from="1547970039216" duration="5523000" />
+      <workItem from="1548053759874" duration="9115000" />
+      <workItem from="1548126494410" duration="6352000" />
+      <workItem from="1548136699091" duration="144000" />
+      <workItem from="1548150507614" duration="2300000" />
+      <workItem from="1548400130123" duration="1218000" />
+      <workItem from="1548420455914" duration="2948000" />
+      <workItem from="1548472689706" duration="954000" />
+      <workItem from="1548648753774" duration="440000" />
+      <workItem from="1548653599671" duration="1441000" />
+      <workItem from="1548669920961" duration="643000" />
+      <workItem from="1548920354195" duration="2217000" />
+      <workItem from="1549007366543" duration="2076000" />
+      <workItem from="1549119201618" duration="7160000" />
+      <workItem from="1549383052271" duration="1630000" />
+      <workItem from="1550040276530" duration="874000" />
+      <workItem from="1550226067098" duration="1861000" />
+      <workItem from="1550570241976" duration="1404000" />
+      <workItem from="1550576524651" duration="6133000" />
+      <workItem from="1550749473024" duration="983000" />
+      <workItem from="1550755812653" duration="1632000" />
+      <workItem from="1550762250779" duration="648000" />
+      <workItem from="1550985616840" duration="18000" />
+      <workItem from="1550985664178" duration="609000" />
+      <workItem from="1551022989163" duration="669000" />
+      <workItem from="1551091758204" duration="1566000" />
+      <workItem from="1551107224477" duration="1187000" />
+      <workItem from="1551266162485" duration="2550000" />
+      <workItem from="1551347967685" duration="1815000" />
+      <workItem from="1551681754849" duration="1585000" />
+      <workItem from="1552445947374" duration="1352000" />
+      <workItem from="1552459035308" duration="721000" />
+      <workItem from="1552460240479" duration="10686000" />
+      <workItem from="1552479080081" duration="8091000" />
+      <workItem from="1552530310247" duration="29236000" />
+      <workItem from="1552576890222" duration="705000" />
+      <workItem from="1552579244227" duration="1653000" />
+      <workItem from="1552616629055" duration="28489000" />
+      <workItem from="1552889046333" duration="12022000" />
+      <workItem from="1553012777629" duration="95000" />
+      <workItem from="1553047728960" duration="6499000" />
+      <workItem from="1553158923682" duration="1272000" />
+      <workItem from="1553244924944" duration="1047000" />
+      <workItem from="1553246795924" duration="22000" />
+      <workItem from="1553483943354" duration="60000" />
+      <workItem from="1553827853795" duration="25000" />
+      <workItem from="1554000255564" duration="376000" />
+      <workItem from="1554098893937" duration="30759000" />
+      <workItem from="1554172377797" duration="5283000" />
+      <workItem from="1554184888266" duration="25040000" />
+      <workItem from="1554257007008" duration="55000" />
+      <workItem from="1554271389631" duration="29821000" />
+      <workItem from="1554357663212" duration="13495000" />
+      <workItem from="1554427615877" duration="638000" />
+      <workItem from="1554452921933" duration="1506000" />
+      <workItem from="1554718912109" duration="4061000" />
+      <workItem from="1554789644131" duration="22576000" />
+      <workItem from="1554876312246" duration="9464000" />
+      <workItem from="1557298980465" duration="26114000" />
+      <workItem from="1559103393992" duration="109000" />
+      <workItem from="1559109597653" duration="543000" />
+      <workItem from="1559135522100" duration="9875000" />
+      <workItem from="1560215852060" duration="747000" />
+      <workItem from="1560258069389" duration="35000" />
+      <workItem from="1560258117773" duration="1254000" />
+      <workItem from="1562681376018" duration="367000" />
+      <workItem from="1562681844274" duration="98829000" />
+      <workItem from="1563761239398" duration="5046000" />
+      <workItem from="1564367894463" duration="595000" />
+      <workItem from="1564380422018" duration="593000" />
+      <workItem from="1564651935961" duration="3848000" />
+      <workItem from="1565857207266" duration="9265000" />
+      <workItem from="1566548546427" duration="1719000" />
+      <workItem from="1566802688649" duration="606000" />
+      <workItem from="1566817574240" duration="742000" />
+      <workItem from="1567154197386" duration="79000" />
+      <workItem from="1567155440223" duration="29000" />
+      <workItem from="1567156614533" duration="106000" />
+      <workItem from="1567157217718" duration="663000" />
+      <workItem from="1567158226500" duration="396000" />
+      <workItem from="1567162562556" duration="3414000" />
+      <workItem from="1567606817462" duration="54313000" />
+      <workItem from="1567783284481" duration="40319000" />
+      <workItem from="1568104208746" duration="41252000" />
+      <workItem from="1568206148268" duration="1171000" />
+      <workItem from="1568207708347" duration="105568000" />
+      <workItem from="1568806003224" duration="11973000" />
+      <workItem from="1569207603657" duration="5987000" />
+      <workItem from="1569544603988" duration="591000" />
+      <workItem from="1569912097322" duration="5406000" />
+      <workItem from="1570428192696" duration="18144000" />
+    </task>
+    <task id="LOCAL-00001" summary="re #564 - Soapui projects refactoring">
+      <created>1532524583451</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532524583451</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2946889000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Capture Tool" order="0" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.21208227" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Structure" order="3" weight="0.24939467" />
+      <window_info id="Palette&#9;" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="UI Designer" order="6" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.8452088" weight="0.14131898" />
+      <window_info anchor="bottom" id="Run" order="4" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.15938303" side_tool="true" weight="0.18169583" />
+      <window_info anchor="bottom" id="Application Servers" order="10" />
+      <window_info anchor="bottom" id="Changes" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.84061694" visible="true" weight="0.19919246" />
+      <window_info anchor="bottom" id="CheckStyle" order="14" />
+      <window_info anchor="bottom" id="IDEtalk Messages" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.32974428" />
+      <window_info anchor="bottom" id="TypeScript" order="17" weight="0.32974428" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Maven" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Designer" order="7" />
+      <window_info anchor="right" id="IDEtalk" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32862905" />
+      <window_info anchor="right" id="Database" order="10" visible="true" weight="0.020565553" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="re #564 - Soapui projects refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="re #564 - Soapui projects refactoring" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/meveo/actions/ActionMethods.js</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/meveo/services/LocalStorageService.js</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/meveo/services/BaseService.js</url>
+          <line>12</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/meveo/pages/elements/UserPopupBio.jsx</url>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/meveo/pages/elements/UserPopup.jsx</url>
+          <line>192</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/meveo/pages/user/UserTeamInfo.jsx</url>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/meveo/pages/user/SeeProjects.jsx</url>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/meveo/pages/MainComponent.jsx</url>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ext-lib/font/museo/museo.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheet/cases.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-tooltip/standalone/react-tooltip.js" />
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserTeam.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="214" column="57" selection-start-line="214" selection-start-column="52" selection-end-line="214" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/HeaderComponent.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="110" column="69" selection-start-line="110" selection-start-column="69" selection-end-line="110" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/shared/Icon.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/draft-js/lib/DefaultDraftInlineStyle.js" />
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/elements/UserPopup.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="184" column="32" selection-start-line="184" selection-start-column="32" selection-end-line="184" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/draft-js/lib/EditorState.js.flow" />
+    <entry file="file://$PROJECT_DIR$/node_modules/react-table/es/index.js" />
+    <entry file="file://$PROJECT_DIR$/stylesheet/rich.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/elements/UserPopupProjects.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3340">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/SeeProjects.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="232" column="35" selection-start-line="232" selection-start-column="29" selection-end-line="232" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProjects.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="207" column="22" selection-start-line="207" selection-start-column="22" selection-end-line="207" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/elements/ProjectPopupClient.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3003">
+          <caret line="86" column="39" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/elements/UserPopupEducations.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="189" column="85" selection-start-line="189" selection-start-column="44" selection-end-line="189" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/model/User.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-117" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/MenuComponent.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/model/Password.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/model/Project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10359" column="4" selection-start-line="10359" selection-start-column="4" selection-end-line="10359" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="292" column="4" selection-start-line="292" selection-start-column="4" selection-end-line="292" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="306" column="27" lean-forward="true" selection-start-line="306" selection-start-column="27" selection-end-line="306" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ext-lib/lib/app.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="11650" column="56" selection-start-line="11650" selection-start-column="56" selection-end-line="11650" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/ext-lib/lib/app.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="11650" column="56" selection-start-line="11650" selection-start-column="56" selection-end-line="11650" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/actions/ActionMethods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/services/UserProfileService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="246" column="33" selection-start-line="246" selection-start-column="33" selection-end-line="246" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/stores/UserStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/stores/BaseStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/elements/ProjectPopupTeam.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3505">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/components/Scheduler.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="72" column="26" lean-forward="true" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheet/reacttab.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/MeveoAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11118">
+          <caret line="654" column="14" selection-start-line="654" selection-start-column="14" selection-end-line="655" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/services/BaseService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7735">
+          <caret line="457" column="34" selection-start-line="457" selection-start-column="34" selection-end-line="457" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ext-lib/stylesheet/manaty-profile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="1779" column="1" selection-start-line="1779" selection-start-column="1" selection-end-line="1779" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/elements/UserPopupMission.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6239">
+          <caret line="367" column="39" lean-forward="true" selection-start-line="367" selection-start-column="39" selection-end-line="367" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/actions/UserProfileAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8296">
+          <caret line="493" column="33" selection-start-line="493" selection-start-column="33" selection-end-line="493" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#201#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/ChangePassword.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2482">
+          <caret line="156" column="50" selection-start-line="156" selection-start-column="35" selection-end-line="156" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/elements/UserPopupMissionRemove.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProfile.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/elements/UserPopupCourses.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="154" column="103" selection-start-line="154" selection-start-column="103" selection-end-line="154" selection-end-column="103" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icon/linkein.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/icon/move_skill.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProfileInfo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="505" column="50" lean-forward="true" selection-start-line="505" selection-start-column="50" selection-end-line="505" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+            <element signature="n#Vocations#0" />
+            <element signature="n#Projects#0" />
+            <element signature="n#Educations#0" />
+            <element signature="n#Courses#0" />
+            <element signature="n#Skills#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheet/manaty-profile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="1648" column="14" selection-start-line="1648" selection-start-column="9" selection-end-line="1648" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheet/manaty-team.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="415" column="22" lean-forward="true" selection-start-line="415" selection-start-column="22" selection-end-line="415" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProjectInfo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5945">
+          <caret line="498" column="15" lean-forward="true" selection-start-line="498" selection-start-column="15" selection-end-line="498" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserTeamInfo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="644" column="82" selection-start-line="644" selection-start-column="64" selection-end-line="644" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/SeeProfile.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="389" selection-start-line="389" selection-end-line="389" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheet/manaty-project.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="918" column="22" lean-forward="true" selection-start-line="918" selection-start-column="22" selection-end-line="918" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

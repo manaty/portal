@@ -1,0 +1,43 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"  xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+    xmlns:f="http://xmlns.jcp.org/jsf/core" xmlns:h="http://xmlns.jcp.org/jsf/html" xmlns:hftl="http://hftl.org" xmlns:p="http://primefaces.org/ui"
+    xmlns:hf="http://xmlns.jcp.org/jsf/composite/tags" template="/layout/template.xhtml">
+
+    <ui:define name="metadata">
+        <f:metadata>
+            <f:viewParam name="objectId" value="#{userRoleBean.objectId}" />
+        </f:metadata>
+    </ui:define>
+
+    <ui:define name="body">
+		<h:form id="crumbmenuForm">
+			<p:breadCrumb homeDisplay="text" id="crumbmenu">
+				<p:menuitem value="#{messages['menu.configuration']}" disabled="true" />
+				<p:menuitem outcome="roles" value="#{messages['menu.userRoles']}" />
+				<p:menuitem value="#{messages['role.new']}" disabled="true"
+					rendered="#{userRoleBean.entity.transient}" />
+				<p:menuitem
+					value="#{messages['role.editView']} - #{userRoleBean.entity.name}"
+					disabled="true" rendered="#{!userRoleBean.entity.transient}" />
+			</p:breadCrumb>
+		</h:form>
+
+		<hftl:formPanel label="#{messages['role.userRolePanel']}" backingBean="#{userRoleBean}">
+            <h:panelGrid columns="1">
+                <h:panelGrid columns="2">
+                    <hftl:formField label="#{messages['role.name']}" field="name" required="true" />
+                    <hftl:formField label="#{messages['role.description']}" field="description" size="50" />
+                </h:panelGrid>
+                <h:panelGrid columns="2" columnClasses="Wid40 Responsive100 VAlignTop, Wid60 Responsive100 VAlignTop">
+                    <hftl:decorateFormField fieldId="roles" label="#{messages['role.roles']}" newLine="true">
+                        <p:pickList required="true" converter="rolePickListConverter" id="roles" value="#{userRoleBean.roleListModel}" var="item" itemLabel="#{item.name}" itemValue="#{item}">
+                        </p:pickList>
+                    </hftl:decorateFormField>
+                    <hftl:decorateFormField fieldId="permissions" label="#{messages['role.permission']}" newLine="true">
+                        <p:pickList required="true" converter="permissionPickListConverter" id="permissions" value="#{userRoleBean.permissionListModel}" var="item" itemLabel="#{item.name}" itemValue="#{item}">
+                        </p:pickList>
+                    </hftl:decorateFormField>
+                </h:panelGrid>
+            </h:panelGrid>
+        </hftl:formPanel>
+    </ui:define>
+</ui:composition>
