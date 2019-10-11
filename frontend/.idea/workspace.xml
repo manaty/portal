@@ -4,7 +4,16 @@
     <bookmark url="file://$PROJECT_DIR$/src/meveo/pages/elements/UserPopup.jsx" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db659992-403d-44de-aefb-f2a36b37b625" name="Default" comment="" />
+    <list default="true" id="db659992-403d-44de-aefb-f2a36b37b625" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/pages/user/SeeProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/pages/user/SeeProfile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/pages/user/SeeProjects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/pages/user/SeeProjects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdrone-iep-kbstudio.meveo/meveo-admin/web/src/main/java/org/meveo/admin/action/BaseBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../webdrone-iep-kbstudio.meveo/meveo-admin/web/src/main/java/org/meveo/admin/action/BaseBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdrone-iep-kbstudio.meveo/meveo-admin/web/src/main/webapp/pages/admin/customEntities/customEntities.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../webdrone-iep-kbstudio.meveo/meveo-admin/web/src/main/webapp/pages/admin/customEntities/customEntities.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdrone-iep-kbstudio.meveo/meveo-model/src/main/java/org/meveo/model/admin/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../webdrone-iep-kbstudio.meveo/meveo-model/src/main/java/org/meveo/model/admin/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdrone-iep-kbstudio.meveo/meveo-model/src/main/java/org/meveo/model/customEntities/CustomEntityInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../webdrone-iep-kbstudio.meveo/meveo-model/src/main/java/org/meveo/model/customEntities/CustomEntityInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webdrone-iep-kbstudio.meveo/meveo-security/src/main/java/org/meveo/security/keycloak/MeveoUserKeyCloakImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../webdrone-iep-kbstudio.meveo/meveo-security/src/main/java/org/meveo/security/keycloak/MeveoUserKeyCloakImpl.java" afterDir="false" />
+    </list>
     <ignored path="caseprediction.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,120 +43,142 @@
     <favorites_list name="caseprediction" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProfileInfo.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6783">
-              <caret line="505" column="50" selection-start-line="505" selection-start-column="50" selection-end-line="505" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-                <element signature="n#Vocations#0" />
-                <element signature="n#Projects#0" />
-                <element signature="n#Educations#0" />
-                <element signature="n#Courses#0" />
-                <element signature="n#Skills#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheet/manaty-profile.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28016">
-              <caret line="1648" column="14" selection-start-line="1648" selection-start-column="9" selection-end-line="1648" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/ChangePassword.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2482">
-              <caret line="156" column="50" selection-start-line="156" selection-start-column="35" selection-end-line="156" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/meveo/pages/elements/UserPopupMissionRemove.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProfile.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheet/manaty-project.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="918" column="22" selection-start-line="918" selection-start-column="22" selection-end-line="918" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/properties.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/SeeProfile.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6290">
-              <caret line="389" selection-start-line="389" selection-end-line="389" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/meveo/pages/elements/UserPopupCourses.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2550">
-              <caret line="154" column="103" selection-start-line="154" selection-start-column="103" selection-end-line="154" selection-end-column="103" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.62887377">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProfileInfo.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="181">
+                  <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+                  <folding>
+                    <element signature="n#Vocations#0" />
+                    <element signature="n#Projects#0" />
+                    <element signature="n#Educations#0" />
+                    <element signature="n#Courses#0" />
+                    <element signature="n#Skills#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/SeeProjects.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="147">
+                  <caret line="261" column="59" selection-start-line="261" selection-start-column="59" selection-end-line="261" selection-end-column="59" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/stylesheet/manaty-profile.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="425">
+                  <caret line="2583" lean-forward="true" selection-start-line="2583" selection-end-line="2583" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/ChangePassword.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2482">
+                  <caret line="156" column="50" selection-start-line="156" selection-start-column="35" selection-end-line="156" selection-end-column="50" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/meveo/pages/elements/UserPopupMissionRemove.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+                  <folding>
+                    <element signature="e#0#43#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProfile.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-3346">
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/stylesheet/manaty-project.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15606">
+                  <caret line="918" column="22" selection-start-line="918" selection-start-column="22" selection-end-line="918" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/properties.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="221">
+                  <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/SeeProfile.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="510">
+                  <caret line="399" selection-start-line="399" selection-end-line="399" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/meveo/pages/elements/UserPopupCourses.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2550">
+                  <caret line="154" column="103" selection-start-line="154" selection-start-column="103" selection-end-line="154" selection-end-column="103" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/SeeProfile.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="326">
+                  <caret line="390" column="62" lean-forward="true" selection-start-line="390" selection-start-column="62" selection-end-line="390" selection-end-column="62" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -182,13 +213,13 @@
       <find>name_header</find>
       <find>empty</find>
       <find>profile_infomation</find>
-      <find>my_profile</find>
       <find>table_profile</find>
       <find>manat</find>
       <find>boder_header</find>
-      <find>name_header</find>
       <find>hideScrollBar</find>
       <find>row</find>
+      <find>my_profile</find>
+      <find>profile_manaty</find>
     </findStrings>
     <replaceStrings>
       <replace>font-family: 'MuseoSans', sans-serif;</replace>
@@ -200,6 +231,7 @@
       <dir>D:\projects\manaty\frontend\manaty\stylesheet</dir>
       <dir>D:\projects\manaty\frontend\manaty</dir>
       <dir>D:\projects\manaty\frontend\manaty\src</dir>
+      <dir>D:\projects\manaty\development\portal\frontend</dir>
     </dirStrings>
   </component>
   <component name="FindManager">
@@ -244,7 +276,6 @@
         <option value="$PROJECT_DIR$/src/meveo/shared/Icon.jsx" />
         <option value="$PROJECT_DIR$/src/meveo/pages/elements/UserPopupMission.jsx" />
         <option value="$PROJECT_DIR$/stylesheet/rich.css" />
-        <option value="$PROJECT_DIR$/src/meveo/pages/user/SeeProjects.jsx" />
         <option value="$PROJECT_DIR$/src/meveo/pages/elements/ProjectPopupClient.jsx" />
         <option value="$PROJECT_DIR$/src/meveo/model/Project.js" />
         <option value="$PROJECT_DIR$/src/meveo/services/UserProfileService.js" />
@@ -258,12 +289,13 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/meveo/pages/user/UserProjectInfo.jsx" />
         <option value="$PROJECT_DIR$/src/meveo/pages/user/UserTeamInfo.jsx" />
-        <option value="$PROJECT_DIR$/src/meveo/pages/user/SeeProfile.jsx" />
         <option value="$PROJECT_DIR$/stylesheet/manaty-profile.css" />
         <option value="$PROJECT_DIR$/src/meveo/pages/user/UserProfileInfo.jsx" />
         <option value="$PROJECT_DIR$/stylesheet/manaty-project.css" />
         <option value="$PROJECT_DIR$/stylesheet/manaty-team.css" />
         <option value="$PROJECT_DIR$/src/properties.js" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/user/SeeProjects.jsx" />
+        <option value="$PROJECT_DIR$/src/meveo/pages/user/SeeProfile.jsx" />
       </list>
     </option>
   </component>
@@ -331,6 +363,32 @@
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="caseprediction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="meveo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caseprediction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="meveo" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caseprediction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="meveo" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="caseprediction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheet" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -351,7 +409,7 @@
     <property name="SearchEverywhereHistoryKey" value="termina&#9;ACTION&#9;ActivateTerminalToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570551340808" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570809823813" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -669,6 +727,9 @@
       <workItem from="1569912097322" duration="5406000" />
       <workItem from="1570428192696" duration="18144000" />
       <workItem from="1570607621838" duration="670000" />
+      <workItem from="1570688175417" duration="598000" />
+      <workItem from="1570717427264" duration="592000" />
+      <workItem from="1570773740467" duration="4033000" />
     </task>
     <task id="LOCAL-00001" summary="re #564 - Soapui projects refactoring">
       <created>1532524583451</created>
@@ -681,7 +742,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2947559000" />
+    <option name="totallyTimeSpent" value="2952782000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -693,11 +754,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21465296" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18380463" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Structure" order="3" weight="0.24939467" />
       <window_info id="Palette&#9;" order="4" />
@@ -857,16 +918,6 @@
     <entry file="file://$PROJECT_DIR$/src/meveo/pages/elements/UserPopupProjects.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3340">
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/SeeProjects.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-840">
-          <caret line="232" column="35" selection-start-line="232" selection-start-column="29" selection-end-line="232" selection-end-column="35" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -1095,32 +1146,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProfileInfo.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6783">
-          <caret line="505" column="50" selection-start-line="505" selection-start-column="50" selection-end-line="505" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-            <element signature="n#Vocations#0" />
-            <element signature="n#Projects#0" />
-            <element signature="n#Educations#0" />
-            <element signature="n#Courses#0" />
-            <element signature="n#Skills#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheet/manaty-profile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28016">
-          <caret line="1648" column="14" selection-start-line="1648" selection-start-column="9" selection-end-line="1648" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1144,22 +1173,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProfile.jsx">
+    <entry file="file://$PROJECT_DIR$/stylesheet/manaty-project.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/SeeProfile.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6290">
-          <caret line="389" selection-start-line="389" selection-end-line="389" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15606">
+          <caret line="918" column="22" selection-start-line="918" selection-start-column="22" selection-end-line="918" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1173,17 +1190,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheet/manaty-project.css">
+    <entry file="file://$PROJECT_DIR$/src/properties.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="918" column="22" selection-start-line="918" selection-start-column="22" selection-end-line="918" selection-end-column="22" />
+        <state relative-caret-position="221">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/properties.js">
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProfile.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        <state relative-caret-position="-3346">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheet/manaty-profile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="2583" lean-forward="true" selection-start-line="2583" selection-end-line="2583" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProfileInfo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="n#Vocations#0" />
+            <element signature="n#Projects#0" />
+            <element signature="n#Educations#0" />
+            <element signature="n#Courses#0" />
+            <element signature="n#Skills#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/SeeProjects.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="261" column="59" selection-start-line="261" selection-start-column="59" selection-end-line="261" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/SeeProfile.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="390" column="62" lean-forward="true" selection-start-line="390" selection-start-column="62" selection-end-line="390" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
