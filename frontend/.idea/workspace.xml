@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db659992-403d-44de-aefb-f2a36b37b625" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/meveo/pages/user/SeeProfile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/pages/user/SeeProfile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/meveo/pages/user/SeeProjects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/pages/user/SeeProjects.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../webdrone-iep-kbstudio.meveo/meveo-admin/web/src/main/java/org/meveo/admin/action/BaseBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../webdrone-iep-kbstudio.meveo/meveo-admin/web/src/main/java/org/meveo/admin/action/BaseBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../webdrone-iep-kbstudio.meveo/meveo-admin/web/src/main/webapp/pages/admin/customEntities/customEntities.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/../webdrone-iep-kbstudio.meveo/meveo-admin/web/src/main/webapp/pages/admin/customEntities/customEntities.xhtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../webdrone-iep-kbstudio.meveo/meveo-model/src/main/java/org/meveo/model/admin/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../webdrone-iep-kbstudio.meveo/meveo-model/src/main/java/org/meveo/model/admin/User.java" afterDir="false" />
@@ -409,7 +406,7 @@
     <property name="SearchEverywhereHistoryKey" value="termina&#9;ACTION&#9;ActivateTerminalToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570809823813" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571032964137" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
