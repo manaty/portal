@@ -143,7 +143,7 @@ class UserPopupEducations extends Component {
                 <form method="get" onSubmit={this.edit_educations_user.bind(this)}>
                     <div className="header_educations">EDIT EDUCATION</div>
                     <div className="modal-body">
-                        <div className="col-xs-5 left_educations">
+                        <div className="col-xs-6 left_educations">
                             <h3 className="name_degree">Degree</h3>
                             <div class="longText" id="hidingScrollBar">
                                 <div class="hideScrollBar">
@@ -153,7 +153,7 @@ class UserPopupEducations extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xs-7 right_educations">
+                    <div className="col-xs-6 right_educations">
                         <h3 className="name_new_degree">Add new degree</h3>
                         <div>
                             <table>
