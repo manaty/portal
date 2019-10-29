@@ -1,0 +1,10 @@
+{
+  "realm": "manaty",
+  "auth-server-url": "http://vpp-v2.webdrone.fr/auth",
+  "ssl-required": "none",
+  "resource": "opencell-web",
+  "credentials": {
+    "secret": "afe07e5a-68cb-4fb0-8b75-5b6053b07dc3"
+  },
+  "use-resource-role-mappings": true
+}

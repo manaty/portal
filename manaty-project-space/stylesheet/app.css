@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu ul {
+  margin: 0;
+  background: #1F568B;
+  list-style-type: none;
+  overflow: hidden;
+  width: 100%;
+}
+
+.menu li {
+  font-family: sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+  color: #f1f1f1;
+  display: inline-block;
+  width: 120px;
+  margin-left: -5px;
+}
+ 
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+.menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+
+.square_button {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 7px 10px 10px 10px;
+  text-decoration: none;
+  color: #FFF;
+  background: #a180dc;
+  transition: .4s;
+  float: left;
+  /* right: 50px; */
+  margin-left: 100px;
+  width: 100px;
+  height: 30px;
+  margin-top: 90px;
+  left: 170px;
+
+}
+
+.square_btn {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 7px 10px 10px 10px;
+  text-decoration: none;
+  color: #FFF;
+  background: #a180dc;
+  transition: .4s;
+  float: left;
+  /* right: 50px; */
+  margin-left: 100px;
+  width: 100px;
+  height: 30px;
+  margin-top: 100px;
+  left: -30px;
+}
+
+.squares_btn {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 7px 10px 10px 10px;
+  text-decoration: none;
+  color: #FFF;
+  background: #a180dc;
+  transition: .4s;
+  float: left;
+  /* right: 50px; */
+  margin-left: 100px;
+  width: 100px;
+  height: 30px;
+  margin-top: 60px;
+  left: 170px;
+
+}
+
+.square_btn>span {
+  border-bottom: solid 2px #FFF;
+}
+
+.square_btn:hover {
+  background: #91b5fb;
+}
+
+.square_btn_scheduler {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 7px 10px 10px 10px;
+  text-decoration: none;
+  color: #FFF;
+  background: #a180dc;
+  transition: .4s;
+  float: left;
+  /* right: 50px; */
+  margin-left: 60px;
+  width: 100px;
+  height: 30px;
+  margin-top: 40px;
+}
