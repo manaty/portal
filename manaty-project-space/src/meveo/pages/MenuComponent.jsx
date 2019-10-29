@@ -27,11 +27,11 @@ export default class MenuComponent extends React.Component {
 					<TabList className="ul_tab">
 						<Tab className="li_tab"><i className="tabsli"><Link to="/scheduler">SCHEDULER</Link></i></Tab><br/>
 						<Tab className="li_tab"><i className="tabsli"><Link to="/diagram">DIAGRAM</Link></i></Tab><br/>
-						{/*<Tab className="li_tab"><i className="tabsli"><Link to="/gantt">GANTT</Link></i></Tab><br/>*/}
+						<Tab className="li_tab"><i className="tabsli"><Link to="/gantt">GANTT</Link></i></Tab><br/>
 					</TabList>
 					<TabPanel/>
 					<TabPanel/>
-					{/*<TabPanel/>*/}
+					<TabPanel/>
 				</div>
 			</Tabs>
 		);

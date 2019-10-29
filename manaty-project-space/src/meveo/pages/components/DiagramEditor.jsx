@@ -84,7 +84,7 @@ class DiagramEditor extends Component {
           <div>
             <button className="square_btn" onClick={this.handleForm}>Save</button>
           </div>
-          <div id="diagram_container"/>
+          <div id="diagram_container" style={{ marginTop: '38px' }}/>
         </div>
     );
   }
