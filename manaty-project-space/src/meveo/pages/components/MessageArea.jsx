@@ -7,7 +7,7 @@ class MessageArea extends Component {
     });
 
     return (
-        <div className="message-area">
+        <div className="message-area" style={{ marginLeft: '800px' }}>
           <h3>Messages:</h3>
           <ul>
             {messages}

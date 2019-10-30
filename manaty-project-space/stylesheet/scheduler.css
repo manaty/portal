@@ -45,11 +45,6 @@ body {
   float: right;
 }
 
-.gantt-container {
-  height: 500px;
-  width: 100%;
-}
-
 .dhx_modal_cover {
   z-index: 1 !important;
 }
