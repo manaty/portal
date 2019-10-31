@@ -314,15 +314,6 @@ This software is covered by DHTMLX Evaluation License. Contact sales@dhtmlx.com 
     font-style: normal
 }
 
-.dxi-set, .dxi:before {
-    display: block;
-    font: normal normal normal 24px/1 DHX Icons;
-    font-size: inherit;
-    text-rendering: auto;
-    line-height: inherit;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale
-}
 
 .dxi-access-point:before {
     content: "\F002"
@@ -10533,4 +10524,14 @@ body > .dhx_cell.layout_y {
 
 .dhx_cell.line-left {
     border-left: 1px solid #e0e0e0
+}
+
+.dxi-set, .dxi:before {
+    display: block;
+    font: normal normal normal 24px/1 DHX Icons;
+    font-size: inherit;
+    text-rendering: auto;
+    line-height: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
 }

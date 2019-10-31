@@ -25,7 +25,9 @@ var ChangePassword = require('./meveo/pages/user/ChangePassword.jsx');
 var Scheduler = require('./meveo/pages/components/Scheduler.jsx');
 var Diagram = require('./meveo/pages/components/Diagram.jsx');
 var DiagramEditor = require('./meveo/pages/components/DiagramEditor.jsx');
-var LoadGantt = require('./meveo/pages/components/LoadGantt.jsx');
+var LoadGantt = require('./meveo/pages/components/loadGantt.jsx');
+var SpreadSheet = require('./meveo/pages/components/SpreadSheet.jsx');
+var Vault = require('./meveo/pages/components/Vault.jsx');
 
 
 
@@ -64,6 +66,8 @@ keycloak.init({
                         <Route exact path={properties.diagram_url} component={Diagram}/>
 						<Route exact path={properties.diagram_editor} component={DiagramEditor}/>
 			            <Route exact path={properties.gantt_url} component={LoadGantt}/>
+			            <Route exact path={properties.spreadsheet_url} component={SpreadSheet}/>
+			            <Route exact path={properties.vault_url} component={Vault}/>
 						<Route path={properties.faq_url} component={LoginComponent}/>
 						<Route path={properties.how_it_works_url} component={HowitworksComponent}/>
 						<Route exact path={properties.about_url} component={AboutUsComponent}/>

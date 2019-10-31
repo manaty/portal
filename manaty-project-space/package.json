@@ -46,6 +46,8 @@
     "copy-to-clipboard": "^3.0.5",
     "dhtmlx-gantt": "^6.2.7",
     "dhtmlx-scheduler": "^5.2.3",
+    "dhx-spreadsheet": "^3.1.4",
+    "dhx-vault": "^3.0.0",
     "draft-js": "^0.9.1",
     "draft-js-export-html": "^1.4.1",
     "flux": "^2.1.1",

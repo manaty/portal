@@ -16,6 +16,8 @@ export const diagram_editor = baseUrl + "/diagram_editor";
 export const scheduler_url = baseUrl + "/scheduler";
 export const diagram_url = baseUrl + "/diagram";
 export const gantt_url = baseUrl + "/gantt";
+export const spreadsheet_url = baseUrl + "/spreadsheet";
+export const vault_url = baseUrl + "/vault";
 
 export const tokenRefreshRate = 300; // in seconds
 export const keycloakConfigURL =  "/meveo/frontend/manaty/keycloak.json";
