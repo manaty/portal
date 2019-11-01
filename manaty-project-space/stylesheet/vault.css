@@ -1,0 +1,11 @@
+
+.vautl_container{
+    width: 440px;
+    height: 400px;
+    box-sizing: border-box;
+    margin: 100px auto 0 auto;
+    margin-top: -400px;
+}
+.dhx-dropable-area {
+    margin-left: 100px; !important;
+}

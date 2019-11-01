@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { gantt } from 'dhtmlx-gantt';
 
+
 export default class Gantt extends Component {
 
   // instance of gantt.dataProcessor

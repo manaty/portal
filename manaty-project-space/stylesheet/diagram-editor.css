@@ -10535,3 +10535,7 @@ body > .dhx_cell.layout_y {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
+.dhx_cell.layout_x {
+   flex-direction: initial !important;
+}
+
