@@ -1,7 +1,6 @@
 /*global gantt*/
 import React, { Component } from 'react';
 
-
 const dataset = [
     {
         "name": "Argentina",
@@ -2796,7 +2795,7 @@ const dataset = [
 
 class Pivot extends Component {
     componentDidMount() {
-        var pivot = new window.dhx.Pivot("pivot", {
+        var pivot =  new window.dhx.Pivot("pivot", {
             data: dataset,
             fields: {
                 rows: ["form", "name"],

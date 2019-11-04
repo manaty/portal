@@ -329,3 +329,9 @@ This software is covered by DHTMLX Evaluation License. Contact sales@dhtmlx.com 
         opacity: 1
     }
 }
+
+.diagram_container {
+    width: 100%;
+    padding-left: 180px;
+    height: 500px;
+}

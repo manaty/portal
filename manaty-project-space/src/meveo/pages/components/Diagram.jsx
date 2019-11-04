@@ -49,7 +49,7 @@ class Diagram extends Component {
             <Link to={'/diagram_editor'}>
               <button className="square_button">Edit</button>
             </Link>
-            <div id="diagram_container"/>
+            <div id="diagram_container" className="diagram_container"/>
         </div>
     );
   }
