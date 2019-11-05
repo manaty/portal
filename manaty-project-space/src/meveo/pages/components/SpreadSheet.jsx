@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Spreadsheet as SpreadsheetBase } from "dhx-spreadsheet/codebase/spreadsheet.js";
 import PropTypes from 'prop-types';
-import "dhx-spreadsheet/codebase/spreadsheet.min.css";
 
 var dataset = [
     { cell: "a1", value: "Country" },

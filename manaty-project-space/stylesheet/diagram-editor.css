@@ -9791,7 +9791,8 @@ body .shapesbar_cont {
 }
 
 .dhx_label, .dhx_value {
-    display: inline-block
+    display: inline-block;
+    margin-left: 30px;
 }
 
 .dhx_value .segmented input {

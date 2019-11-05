@@ -1179,7 +1179,8 @@ body {
     white-space: nowrap;
     cursor: pointer;
     -webkit-transition: color .2s ease-in, opacity .2s ease-in;
-    transition: color .2s ease-in, opacity .2s ease-in
+    transition: color .2s ease-in, opacity .2s ease-in;
+
 }
 
 .dhx_label:hover {
@@ -1338,6 +1339,7 @@ body {
     padding-left: 6px;
     margin-top: 0
 }
+
 
 .dhx_radiobutton__input:disabled + * + .dhx_label, .dhx_radiobutton__input:disabled + .dhx_radiobutton__visual-input {
     opacity: .6
@@ -3540,3 +3542,4 @@ body {
 .dhx_grid-sort-icon {
     position: relative !important;
 }
+

@@ -1561,7 +1561,7 @@ article {
 .main_sidebar > ul {
     margin-top: 50px;
     margin-bottom: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
     list-style: none;
 }
 
@@ -1645,7 +1645,7 @@ article {
 }
 
 .li_tab a {
-    font-size: 28px;
+    font-size: 30px;
 }
 
 .profile_manaty > div {

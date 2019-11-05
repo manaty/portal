@@ -115,7 +115,7 @@ This software is covered by DHTMLX Evaluation License. Contact sales@dhtmlx.com 
 .dhx_popup_toolbar {
     position: absolute;
     z-index: 1;
-    animation: a .2s ease-in-out forwards;
+    /*animation: a .2s ease-in-out forwards;*/
     background: #fff;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
     border-radius: 2px;
