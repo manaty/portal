@@ -1,5 +1,6 @@
 /*global gantt*/
 import React, { Component } from 'react';
+import "dhx-pivot/codebase/pivot.min.css";
 
 const dataset = [
     {

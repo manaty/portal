@@ -1954,7 +1954,7 @@ body {
 }
 
 .dhx_grid-sort-icon {
-    position: absolute;
+    /*position: absolute;*/
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -3535,4 +3535,8 @@ body {
     right: 0;
     top: 7px;
     margin-right: 4px
+}
+
+.dhx_grid-sort-icon {
+    position: relative !important;
 }
