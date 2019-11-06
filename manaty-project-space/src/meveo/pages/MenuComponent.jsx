@@ -31,7 +31,9 @@ export default class MenuComponent extends React.Component {
 						<Tab className="li_tab"><i className="tabsli"><Link to="/spreadsheet">SPREADSHEET</Link></i></Tab><br/>
 						<Tab className="li_tab"><i className="tabsli"><Link to="/vault">VAULT</Link></i></Tab><br/>
 						<Tab className="li_tab"><i className="tabsli"><Link to="/pivot">PIVOT</Link></i></Tab><br/>
+						<Tab className="li_tab"><i className="tabsli"><Link to="/richtext">RICHTEXT</Link></i></Tab><br/>
 					</TabList>
+					<TabPanel/>
 					<TabPanel/>
 					<TabPanel/>
 					<TabPanel/>

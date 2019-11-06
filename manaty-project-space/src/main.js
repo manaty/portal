@@ -29,6 +29,7 @@ var LoadGantt = require('./meveo/pages/components/loadGantt.jsx');
 var SpreadSheet = require('./meveo/pages/components/SpreadSheet.jsx');
 var Vault = require('./meveo/pages/components/Vault.jsx');
 var Pivot = require('./meveo/pages/components/pivot.jsx');
+var RichText = require('./meveo/pages/components/RichText.jsx');
 
 
 
@@ -70,6 +71,7 @@ keycloak.init({
 			            <Route exact path={properties.spreadsheet_url} component={SpreadSheet}/>
 			            <Route exact path={properties.vault_url} component={Vault}/>
 			            <Route exact path={properties.pivot_url} component={Pivot}/>
+			            <Route exact path={properties.richtext_url} component={RichText}/>
 						<Route path={properties.faq_url} component={LoginComponent}/>
 						<Route path={properties.how_it_works_url} component={HowitworksComponent}/>
 						<Route exact path={properties.about_url} component={AboutUsComponent}/>
