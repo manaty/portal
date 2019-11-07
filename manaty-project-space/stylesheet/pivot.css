@@ -13,3 +13,11 @@
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
 }
+
+.dhx_checkbox__visual-input {
+    position: relative !important;
+}
+
+.dhx_label, .dhx_value  {
+    margin-left: 10px !important;
+}
