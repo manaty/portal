@@ -213,7 +213,13 @@ class UserProjectInfo extends Component {
     renderViewProject(){
         return(
             <div>
-                <SeeProjects parent={this} users={this.props.users} backAllProjects={this.props.backAllProjects} resetFilter={this.resetFilter} projectSee={this.state.projectSee} {...this.state} baseData={this.props.baseData} {...this.props}/>
+                <SeeProjects
+                    parent={this}
+                    users={this.props.users}
+                    backAllProjects={this.props.backAllProjects}
+                    resetFilter={this.resetFilter}
+                    projectSee={this.state.projectSee}
+                    {...this.state} baseData={this.props.baseData} {...this.props}/>
             </div>
         );
     }

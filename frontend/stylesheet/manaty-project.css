@@ -284,6 +284,7 @@ a:hover, a:focus {
     width: 500px;
 }
 
+
  .link_see:hover {
     color : blue
 }
@@ -424,6 +425,10 @@ a:hover, a:focus {
     font-weight: bold;
     text-decoration: underline;
     margin-left:20px;
+}
+
+.link_pro :hover{
+    color: blue;
 }
 
 /*LIST PROJECT*/
@@ -927,4 +932,22 @@ a:hover, a:focus {
 .react-bs-table table td, .react-bs-table table th {
     word-wrap: break-word;
     white-space: normal;
+}
+
+.btn_space {
+    font-size: 19.33px;
+    font-family: 'MuseoSans', sans-serif;
+    color: rgb(249, 249, 249);
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left:20px;
+    color: white;
+}
+
+.btn_space > a {
+    color: white !important;
+}
+
+.btn_space > a:hover {
+    color: blue !important;
 }

@@ -6,7 +6,8 @@ export default class Project {
       this.logo = datum.logo;
       this.link = datum.link;
       this.contacts = datum.contacts;
-      this.assemblaLink = datum.assemblaLink;
+      this.projectSpaceLink = datum.projectSpaceLink;
+      this.externalProjectSpace = datum.externalProjectSpace;
       this.teams = datum.teams;
       this.longDescription = datum.longDescription;
 
