@@ -467,6 +467,21 @@ export default class BaseService {
             }
         );
     }
+
+    getProjectSpaceByCode(projectCode, callback) {
+        this.meveoAPI.find_project_space(projectCode).then(response => {
+                if (callback) {
+                    callback('success', response);
+                }
+            },
+            error => {
+                if (callback) {
+                    callback('error', error);
+                }
+            }
+        );
+    }
+
 }
 
 

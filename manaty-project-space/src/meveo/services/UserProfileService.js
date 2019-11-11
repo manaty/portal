@@ -249,4 +249,12 @@ export default class UserProfileService extends BaseService {
             });
         });
     }
+
+    get_project_space(projectCode) {
+        return new Promise((resolve, reject) => {
+            super.getProjectSpaceByCode(projectCode, (code, response) => {
+                (code == 'success') ? resolve(response) : reject(response);
+            });
+        });
+    }
 }

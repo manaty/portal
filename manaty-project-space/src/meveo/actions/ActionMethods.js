@@ -40,6 +40,7 @@ export const EDIT_MISSION_USER = "EDIT_MISSION_USER";
 export const REMOVE_MISSION = "REMOVE_MISSION";
 export const GENERATE_CV = "GENERATE_CV";
 export const GENERATE_CV_EXPORT = "GENERATE_CV_EXPORT";
+export const GET_PROJECT_SPACE = "GET_PROJECT_SPACE";
 
 
 export function startMethod(actionMethod) {

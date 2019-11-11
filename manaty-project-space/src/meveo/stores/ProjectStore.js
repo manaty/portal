@@ -12,7 +12,8 @@ class ProjectStore extends BaseStore {
             ActionMethods.EDIT_ASSEMBLA_PROJECT,
             ActionMethods.UPLOAD_IMAGE_PROJECT_FILE,
             ActionMethods.EDIT_TEAMS_PROJECT,
-            ActionMethods.ADD_PROJECT_FOR_USER
+            ActionMethods.ADD_PROJECT_FOR_USER,
+            ActionMethods.GET_PROJECT_SPACE,
 		]);
 	}
 }

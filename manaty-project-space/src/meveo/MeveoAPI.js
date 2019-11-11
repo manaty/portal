@@ -669,5 +669,20 @@ export default class MeveoAPI {
             })
         });
     }
+
+    find_project_space(projectCode) {
+        this.requestOptions.method = "GET";
+        let action = this.host + "/rest/getProject/" + projectCode;
+        return new Promise((resolve, reject) => {
+            fetch(action
+                , this.requestOptions).then(this.checkStatus).then(this.parseJSON).then(function (data) {
+                // console.log('request succeeded with JSON response', data)
+                resolve(data);
+            }).catch(function (error) {
+                //console.log('request failed', error);
+                reject(error);
+            })
+        });
+    }
 }
 

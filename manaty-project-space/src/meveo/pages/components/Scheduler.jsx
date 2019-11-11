@@ -7,6 +7,7 @@ import 'dhtmlx-scheduler/codebase/ext/dhtmlxscheduler_editors';
 import 'dhtmlx-scheduler/codebase/ext/dhtmlxscheduler_limit';
 import 'dhtmlx-scheduler/codebase/ext/dhtmlxscheduler_serialize';
 import 'dhtmlx-scheduler/codebase/ext/dhtmlxscheduler_recurring';
+import { withRouter } from "react-router-dom";
 
 
 class Scheduler extends Component {
@@ -74,6 +75,7 @@ class Scheduler extends Component {
   };
 
   render() {
+    const { match } = this.props;
     return (
       <div className="scheduler-container">
         <div>
@@ -100,4 +102,4 @@ class Scheduler extends Component {
     );
   }
 }
-module.exports = Scheduler;
+module.exports = withRouter(Scheduler);

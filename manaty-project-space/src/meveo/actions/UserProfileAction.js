@@ -529,3 +529,19 @@ export function generateCVExport(username) {
     });
     action.execute(username);
 }
+
+export function projectSpace(projectCode) {
+    const action = new Action(ActionMethods.GET_PROJECT_SPACE, function(projectCode) {
+        userProfileService.get_project_space(projectCode).then(
+            response => {
+                const result = new Success(response);
+                result.message = "project_space_success";
+                this.success(result);
+            },
+            error => {
+                this.fail(error);
+            }
+        );
+    });
+    action.execute(projectCode);
+}
