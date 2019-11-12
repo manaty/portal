@@ -145,16 +145,6 @@ export default class UserProfileService extends BaseService {
         });
     }
 
-    edit_assembla_project(userData) {
-        userData.mode = "edit";
-        let entity = new Project(userData);
-        return new Promise((resolve, reject) => {
-            super.editAssemblaProject(entity, (code, response) => {
-                (code == 'success') ? resolve(response) : reject(response);
-            });
-        });
-    }
-
     upload_image_project(username) {
         return new Promise((resolve, reject) => {
             super.uploadImageProject(username, (code, response) => {

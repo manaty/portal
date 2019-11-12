@@ -309,27 +309,6 @@ export function editClientProject(userData) {
     action.execute(userData);
 }
 
-export function editAssemblaProject(userData) {
-    const action = new Action(ActionMethods.EDIT_ASSEMBLA_PROJECT, function(userData) {
-        userProfileService.edit_assembla_project(userData).then(
-            response => {
-                if(response == null || response.status === "FAIL") {
-                    this.fail(response);
-                }else {
-                    projectDetail(userData.code);
-                    const result = new Success();
-                    result.message = "edit_project_success";
-                    this.success(result);
-                }
-            },
-            error => {
-                this.fail(error);
-            }
-        );
-    });
-    action.execute(userData);
-}
-
 export function uploadImageProject(formData,username) {
     const action = new Action(ActionMethods.UPLOAD_IMAGE_PROJECT_FILE, function(formData) {
         userProfileService.upload_image_project(formData).then(

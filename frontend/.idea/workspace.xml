@@ -4,13 +4,29 @@
     <bookmark url="file://$PROJECT_DIR$/src/meveo/pages/elements/UserPopup.jsx" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db659992-403d-44de-aefb-f2a36b37b625" name="Default" comment="">
+    <list default="true" id="db659992-403d-44de-aefb-f2a36b37b625" name="Default" comment=" worked #MP-22-integrate Manaty Portal Space Project - BE and Frontend">
+      <change afterPath="$PROJECT_DIR$/../manaty-project-space/src/meveo/pages/components/ProjectSpace.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/meveo/model/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/model/Project.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/meveo/pages/user/SeeProjects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/pages/user/SeeProjects.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/meveo/pages/user/UserProjectInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/pages/user/UserProjectInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet/manaty-project.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet/manaty-project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext-lib/lib/app.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/ext-lib/lib/app.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/MeveoAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/MeveoAPI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/actions/ActionMethods.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/actions/ActionMethods.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/actions/UserProfileAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/actions/UserProfileAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/pages/elements/ProjectPopupAssemblaLink.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/services/BaseService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/services/BaseService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/meveo/services/UserProfileService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/meveo/services/UserProfileService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manaty-project-space/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../manaty-project-space/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manaty-project-space/src/meveo/pages/MainComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../manaty-project-space/src/meveo/pages/MainComponent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../manaty-project-space/src/meveo/pages/MenuComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../manaty-project-space/src/meveo/pages/MenuComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manaty-project-space/src/meveo/pages/elements/UserPopupMission.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manaty-project-space/src/meveo/pages/elements/UserPopupMissionRemove.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manaty-project-space/src/meveo/pages/elements/UserPopupProjects.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manaty-project-space/src/meveo/pages/elements/UserPopupSkills.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manaty-project-space/stylesheet/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/../manaty-project-space/stylesheet/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manaty-project-space/stylesheet/diagram.css" beforeDir="false" afterPath="$PROJECT_DIR$/../manaty-project-space/stylesheet/diagram.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manaty-project-space/stylesheet/rich-text.css" beforeDir="false" afterPath="$PROJECT_DIR$/../manaty-project-space/stylesheet/rich-text.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manaty-project-space/stylesheet/scheduler.css" beforeDir="false" afterPath="$PROJECT_DIR$/../manaty-project-space/stylesheet/scheduler.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manaty-project-space/stylesheet/spread-sheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/../manaty-project-space/stylesheet/spread-sheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manaty-project-space/stylesheet/vault.css" beforeDir="false" afterPath="$PROJECT_DIR$/../manaty-project-space/stylesheet/vault.css" afterDir="false" />
     </list>
     <ignored path="caseprediction.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/SeeProjects.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="230" column="70" lean-forward="true" selection-start-line="230" selection-start-column="70" selection-end-line="230" selection-end-column="70" />
+            <state relative-caret-position="3655">
+              <caret line="215" column="58" selection-start-line="215" selection-start-column="51" selection-end-line="215" selection-end-column="58" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -55,77 +71,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProfileInfo.jsx">
+        <entry file="file://$PROJECT_DIR$/ext-lib/lib/app.bundle.js.map">
+          <provider editor-type-id="sourcemapFileViewerProvider" />
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ext-lib/lib/app.bundle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="820" column="30" selection-start-line="820" selection-start-column="30" selection-end-line="820" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-                <element signature="n#Vocations#0" />
-                <element signature="n#Projects#0" />
-                <element signature="n#Courses#0" />
-                <element signature="n#Skills#0" />
-              </folding>
+            <state relative-caret-position="-635">
+              <caret line="12506" column="16" selection-start-line="12506" selection-start-column="16" selection-end-line="12506" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProjectInfo.jsx">
+        <entry file="file://$PROJECT_DIR$/images/ext-lib/lib/app.bundle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-191">
-              <caret line="152" column="14" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/meveo/stores/ProjectStore.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/meveo/MeveoAPI.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="453" column="39" lean-forward="true" selection-start-line="453" selection-start-column="39" selection-end-line="453" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="69" column="97" lean-forward="true" selection-start-line="69" selection-start-column="97" selection-end-line="69" selection-end-column="97" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="79" column="21" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="21" />
+            <state relative-caret-position="-2267">
+              <caret line="12506" column="16" selection-start-line="12506" selection-start-column="16" selection-end-line="12506" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/meveo/MeveoAPI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="485" selection-start-line="485" selection-end-line="485" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/properties.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1607">
+              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/meveo/pages/MenuComponent.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="11" />
+            <state relative-caret-position="214">
+              <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -134,19 +125,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/meveo/model/Project.js">
+        <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProfile.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+            <state relative-caret-position="-2161">
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheet/manaty-project.css">
+        <entry file="file://$PROJECT_DIR$/src/meveo/pages/HeaderComponent.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
-              <caret line="953" lean-forward="true" selection-start-line="953" selection-end-line="953" />
+            <state relative-caret-position="1223">
+              <caret line="110" column="69" selection-start-line="110" selection-start-column="69" selection-end-line="110" selection-end-column="69" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/meveo/pages/MainComponent.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,8 +171,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.input-group.input.form-control</find>
-      <find>userDetailOnUpdate</find>
       <find>TEAM</find>
       <find>currentPassword</find>
       <find>tabsli</find>
@@ -193,6 +199,8 @@
       <find>projectDetailOnUpdate</find>
       <find>GET_PROJECT_DETAILS</find>
       <find>router</find>
+      <find>AssemblaLink()</find>
+      <find>this.renderProfilePopupAssemblaLink()</find>
     </findStrings>
     <replaceStrings>
       <replace>font-family: 'MuseoSans', sans-serif;</replace>
@@ -204,6 +212,9 @@
       <dir>D:\projects\manaty\frontend\manaty\stylesheet</dir>
       <dir>D:\projects\manaty\frontend\manaty</dir>
       <dir>D:\projects\manaty\frontend\manaty\src</dir>
+      <dir>D:\projects\manaty\development\portal\frontend\src\meveo\pages\elements</dir>
+      <dir>D:\projects\manaty\development\portal\frontend\src\meveo\pages\user</dir>
+      <dir>D:\projects\manaty\development\portal\frontend\src\meveo\pages</dir>
       <dir>D:\projects\manaty\development\portal\frontend</dir>
     </dirStrings>
   </component>
@@ -218,8 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/meveo/pages/App.jsx" />
-        <option value="$PROJECT_DIR$/src/meveo/pages/LoadGantt.jsx" />
         <option value="$PROJECT_DIR$/src/meveo/pages/components/Gantt.jsx" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/meveo/pages/components/index.jsx" />
@@ -249,11 +258,6 @@
         <option value="$PROJECT_DIR$/src/meveo/pages/elements/UserPopupMission.jsx" />
         <option value="$PROJECT_DIR$/stylesheet/rich.css" />
         <option value="$PROJECT_DIR$/src/meveo/pages/elements/ProjectPopupClient.jsx" />
-        <option value="$PROJECT_DIR$/src/meveo/services/UserProfileService.js" />
-        <option value="$PROJECT_DIR$/src/meveo/services/BaseService.js" />
-        <option value="$PROJECT_DIR$/src/meveo/MeveoAPI.js" />
-        <option value="$PROJECT_DIR$/src/meveo/actions/ActionMethods.js" />
-        <option value="$PROJECT_DIR$/src/meveo/actions/UserProfileAction.js" />
         <option value="$PROJECT_DIR$/src/meveo/stores/UserStore.js" />
         <option value="$PROJECT_DIR$/stylesheet/reacttab.css" />
         <option value="$PROJECT_DIR$/src/meveo/pages/user/ChangePassword.jsx" />
@@ -269,6 +273,13 @@
         <option value="$PROJECT_DIR$/stylesheet/manaty-project.css" />
         <option value="$PROJECT_DIR$/src/meveo/pages/user/SeeProjects.jsx" />
         <option value="$PROJECT_DIR$/src/meveo/model/Project.js" />
+        <option value="$PROJECT_DIR$/src/meveo/actions/ActionMethods.js" />
+        <option value="$PROJECT_DIR$/src/meveo/actions/UserProfileAction.js" />
+        <option value="$PROJECT_DIR$/src/meveo/MeveoAPI.js" />
+        <option value="$PROJECT_DIR$/src/meveo/services/BaseService.js" />
+        <option value="$PROJECT_DIR$/src/meveo/services/UserProfileService.js" />
+        <option value="$PROJECT_DIR$/images/ext-lib/lib/app.bundle.js" />
+        <option value="$PROJECT_DIR$/ext-lib/lib/app.bundle.js" />
       </list>
     </option>
   </component>
@@ -324,7 +335,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -337,19 +347,6 @@
               <item name="caseprediction" type="b2602c69:ProjectViewProjectNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="ext-lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caseprediction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="ext-lib" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="caseprediction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="ext-lib" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="app.bundle.js" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="caseprediction" type="b2602c69:ProjectViewProjectNode" />
@@ -402,6 +399,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -416,8 +414,8 @@
     <property name="SearchEverywhereHistoryKey" value="termina&#9;ACTION&#9;ActivateTerminalToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573464542703" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573574657602" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../manaty-project-space" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -756,6 +754,9 @@
       <workItem from="1573206716273" duration="11480000" />
       <workItem from="1573224912579" duration="2618000" />
       <workItem from="1573452374135" duration="11496000" />
+      <workItem from="1573479106453" duration="920000" />
+      <workItem from="1573480090247" duration="29000" />
+      <workItem from="1573538825823" duration="6650000" />
     </task>
     <task id="LOCAL-00001" summary="re #564 - Soapui projects refactoring">
       <created>1532524583451</created>
@@ -771,11 +772,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571760040204</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=" worked #MP-22-integrate Manaty Portal Space Project - BE and Frontend">
+      <created>1573479886873</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573479886874</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2998479000" />
+    <option name="totallyTimeSpent" value="3006078000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -788,10 +796,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16709511" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22107969" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Structure" order="3" weight="0.24939467" />
       <window_info id="Palette&#9;" order="4" />
@@ -800,7 +807,7 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.8452088" weight="0.1588156" />
+      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.8452088" weight="0.3001346" />
       <window_info anchor="bottom" id="Run" order="4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
@@ -810,7 +817,45 @@
       <window_info anchor="bottom" id="Application Servers" order="10" />
       <window_info anchor="bottom" id="Changes" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.8399743" visible="true" weight="0.23014805" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.8399743" weight="0.23014805" />
+      <window_info anchor="bottom" id="CheckStyle" order="14" />
+      <window_info anchor="bottom" id="IDEtalk Messages" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.32974428" />
+      <window_info anchor="bottom" id="TypeScript" order="17" weight="0.32974428" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Maven" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Designer" order="7" />
+      <window_info anchor="right" id="IDEtalk" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32862905" />
+      <window_info anchor="right" id="Database" order="10" weight="0.019280206" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Capture Tool" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22107969" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Structure" order="3" weight="0.24939467" />
+      <window_info id="Palette&#9;" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="UI Designer" order="6" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.8452088" visible="true" weight="0.3001346" />
+      <window_info anchor="bottom" id="Run" order="4" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.1600257" side_tool="true" weight="0.19919246" />
+      <window_info anchor="bottom" id="Application Servers" order="10" />
+      <window_info anchor="bottom" id="Changes" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.8399743" weight="0.23014805" />
       <window_info anchor="bottom" id="CheckStyle" order="14" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="15" />
       <window_info anchor="bottom" id="Version Control" order="16" weight="0.32974428" />
@@ -826,7 +871,7 @@
       <window_info anchor="right" id="IDEtalk" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.32862905" />
       <window_info anchor="right" id="Database" order="10" visible="true" weight="0.019280206" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -845,7 +890,8 @@
     </ignored-roots>
     <MESSAGE value="re #564 - Soapui projects refactoring" />
     <MESSAGE value="fix layout profile and  education form" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix layout profile and  education form" />
+    <MESSAGE value=" worked #MP-22-integrate Manaty Portal Space Project - BE and Frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value=" worked #MP-22-integrate Manaty Portal Space Project - BE and Frontend" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -890,41 +936,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="292" column="4" selection-start-line="292" selection-start-column="4" selection-end-line="292" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="306" column="27" lean-forward="true" selection-start-line="306" selection-start-column="27" selection-end-line="306" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/ext-lib/lib/app.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="11650" column="56" selection-start-line="11650" selection-start-column="56" selection-end-line="11650" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/meveo/actions/ActionMethods.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/meveo/services/UserProfileService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="246" column="33" selection-start-line="246" selection-start-column="33" selection-end-line="246" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/meveo/stores/UserStore.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -955,13 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1207">
           <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/meveo/services/BaseService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7735">
-          <caret line="457" column="34" selection-start-line="457" selection-start-column="34" selection-end-line="457" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1022,35 +1026,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProfile.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/properties.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/SeeProfile.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6460">
           <caret line="399" selection-start-line="399" selection-end-line="399" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/meveo/pages/MainComponent.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -1063,16 +1042,6 @@
     <entry file="file://$PROJECT_DIR$/src/meveo/pages/FooterComponent.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/meveo/pages/HeaderComponent.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="110" column="69" selection-start-line="110" selection-start-column="69" selection-end-line="110" selection-end-column="69" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1112,16 +1081,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/meveo/pages/elements/ProjectPopupClient.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="234" column="38" lean-forward="true" selection-start-line="234" selection-start-column="38" selection-end-line="234" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ext-lib/stylesheet/manaty-project.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1129,38 +1088,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/meveo/pages/elements/ProjectPopupAssemblaLink.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="52" column="73" selection-start-line="52" selection-start-column="73" selection-end-line="52" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stylesheet/manaty-profile.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/meveo/actions/UserProfileAction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8415">
-          <caret line="500" column="16" selection-start-line="500" selection-start-column="16" selection-end-line="500" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <element signature="e#201#267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ext-lib/lib/app.bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
@@ -1207,26 +1138,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/meveo/stores/ProjectStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProjectInfo.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-191">
-          <caret line="152" column="14" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProfileInfo.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
+        <state relative-caret-position="12393">
           <caret line="820" column="30" selection-start-line="820" selection-start-column="30" selection-end-line="820" selection-end-column="30" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
@@ -1238,41 +1152,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheet/manaty-project.css">
+    <entry file="file://$PROJECT_DIR$/src/meveo/stores/ProjectStore.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="953" lean-forward="true" selection-start-line="953" selection-end-line="953" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/meveo/model/Project.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/SeeProjects.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="230" column="70" lean-forward="true" selection-start-line="230" selection-start-column="70" selection-end-line="230" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/meveo/MeveoAPI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="453" column="39" lean-forward="true" selection-start-line="453" selection-start-column="39" selection-end-line="453" selection-end-column="39" />
+        <state relative-caret-position="136">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="69" column="97" lean-forward="true" selection-start-line="69" selection-start-column="97" selection-end-line="69" selection-end-column="97" />
+        <state relative-caret-position="1071">
+          <caret line="69" column="97" selection-start-line="69" selection-start-column="97" selection-end-line="69" selection-end-column="97" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1281,18 +1171,173 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
+        <state relative-caret-position="1343">
           <caret line="79" column="21" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheet/manaty-project.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16201">
+          <caret line="953" selection-start-line="953" selection-end-line="953" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/elements/ProjectPopupClient.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3978">
+          <caret line="234" column="38" lean-forward="true" selection-start-line="234" selection-start-column="38" selection-end-line="234" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/elements/ProjectPopupAssemblaLink.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/model/Project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/actions/ActionMethods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/actions/UserProfileAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#201#267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/services/BaseService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="315" selection-start-line="315" selection-end-line="315" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/services/UserProfileService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2827">
+          <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProjectInfo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="137" column="55" lean-forward="true" selection-start-line="137" selection-start-column="55" selection-end-line="137" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/properties.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1607">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/ext-lib/lib/app.bundle.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret column="606965" selection-start-column="606965" selection-end-column="606965" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/ext-lib/lib/app.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2267">
+          <caret line="12506" column="16" selection-start-line="12506" selection-start-column="16" selection-end-line="12506" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/MainComponent.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/meveo/pages/MenuComponent.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="214">
+          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/UserProfile.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2161">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/HeaderComponent.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1223">
+          <caret line="110" column="69" selection-start-line="110" selection-start-column="69" selection-end-line="110" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/pages/user/SeeProjects.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3655">
+          <caret line="215" column="58" selection-start-line="215" selection-start-column="51" selection-end-line="215" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ext-lib/lib/app.bundle.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ext-lib/lib/app.bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-635">
+          <caret line="12506" column="16" selection-start-line="12506" selection-start-column="16" selection-end-line="12506" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/meveo/MeveoAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="485" selection-start-line="485" selection-end-line="485" />
         </state>
       </provider>
     </entry>

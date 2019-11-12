@@ -483,22 +483,6 @@ export default class MeveoAPI {
         });
     }
 
-    edit_assembla_project(user_data) {
-        //console.log(entity);
-        this.requestOptions.method = "POST";
-        this.requestOptions.body = JSON.stringify(user_data);
-        let action = this.host + "/rest/saveProjectAssembla";
-        return new Promise((resolve, reject) => {
-            fetch(action
-                , this.requestOptions).then(this.checkStatus).then(this.parseJSON).then(function (data) {
-
-                resolve(data);
-            }).catch(function (error) {
-                //console.log('request failed', error);
-                reject(error);
-            })
-        });
-    }
 
     upload_image_project(data) {
         for(var pair of data.entries()) {

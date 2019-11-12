@@ -313,19 +313,6 @@ export default class BaseService {
         );
     }
 
-    editAssemblaProject(userData, callback) {
-        this.meveoAPI.edit_assembla_project(userData).then(response => {
-                if (callback) {
-                    callback('success', response);
-                }
-            },
-            error => {
-                if (callback) {
-                    callback('error', error);
-                }
-            }
-        );
-    }
 
     uploadImageProject(username, callback) {
         this.meveoAPI.upload_image_project(username).then(response => {
