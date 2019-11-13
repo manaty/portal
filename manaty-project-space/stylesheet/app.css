@@ -77,7 +77,8 @@ ul {
   margin-left: 100px;
   width: 100px;
   height: 30px;
-  margin-top: 90px;
+  /*margin-top: 90px;*/
+  top: -200px;
   left: 170px;
 
 }
@@ -96,9 +97,27 @@ ul {
   margin-left: 100px;
   width: 100px;
   height: 30px;
-  margin-top: 100px;
-  left: -30px;
+  margin-top: -600px;
+  left: 170px;
 }
+
+.square_diagram_btn {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 7px 10px 10px 10px;
+  text-decoration: none;
+  color: #FFF;
+  background: #a180dc;
+  transition: .4s;
+  float: left;
+  margin-left: 240px;
+  width: 100px;
+  height: 30px;
+  left: 40px;
+  top: -220px;
+}
+
 
 .squares_btn {
   position: relative;
@@ -138,8 +157,8 @@ ul {
   transition: .4s;
   float: left;
   /* right: 50px; */
-  margin-left: 60px;
+  margin-left: 270px;
   width: 100px;
   height: 30px;
-  margin-top: 40px;
+
 }

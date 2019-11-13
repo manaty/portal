@@ -7,11 +7,15 @@
     justify-content: center;
     margin-left: 230px;
     height: 100%;
+    margin-top: -400px;
 }
 .dhx_pivot-container_widget {
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
+    width: 1340px;
+    height: 750px;
+    margin-left: 20px;
 }
 
 .dhx_checkbox__visual-input {

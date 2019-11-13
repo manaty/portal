@@ -5,10 +5,10 @@
     display: flex;
     margin-right: auto;
     justify-content: center;
-    width: 85%;
-    margin-left: 235px;
-    margin-top: 37px;
-    height: 94%;
+    width: 1360px !important;
+    margin-left: 250px !important;
+    margin-top: 37px !important;
+    height: 350px;
 
 }
 .dhx_spreadsheet-container_widget {

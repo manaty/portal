@@ -172,8 +172,6 @@ This software is covered by DHTMLX Evaluation License. Contact sales@dhtmlx.com 
 }
 
 .dhx_diagram {
-    width: 100%;
-    height: 100%;
     background: #f7f7f7;
     overflow: auto;
     font-size-adjust: 100%;
@@ -181,8 +179,15 @@ This software is covered by DHTMLX Evaluation License. Contact sales@dhtmlx.com 
 }
 
 .dhx_diagram .dhx_wrapper {
+    width: 700px;
+    height: 650px;
     display: inline-block;
-    position: relative
+    position: relative;
+    margin-left: 20px;
+}
+
+.diagram_editor.dhx_diagram .dhx_wrapper {
+    margin-left: 220px;
 }
 
 .dhx_diagram_connector {
@@ -9256,7 +9261,9 @@ This software is covered by DHTMLX Evaluation License. Contact sales@dhtmlx.com 
 
 .editor .dhx_diagram {
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cdefs%3E%3Cpattern id='a' width='10' height='10' patternUnits='userSpaceOnUse'%3E%3Cpath stroke-width='.5' stroke='%23e0e0e0' fill='transparent' d='M0 0h10v10H0z'/%3E%3C/pattern%3E%3C/defs%3E%3Cpath fill='url(%23a)' stroke='%23E0E0E0' d='M0 0h100v100H0z'/%3E%3C/svg%3E");
-    text-align: left
+    text-align: left;
+    margin-left: 50px;
+
 }
 
 .dhx_cell .dhx_preview_mode .dhx_diagram {
@@ -10487,7 +10494,8 @@ body .shapesbar_cont {
 }
 
 .dhx_cell.layout_y {
-    flex-direction: column
+    flex-direction: column;
+    margin-top: -375px;
 }
 
 .dhx_cell.flex {
@@ -10520,7 +10528,8 @@ body > .dhx_cell.layout_y {
 .dhx_cell.shadow-bottom {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
     position: relative;
-    z-index: 10
+    z-index: 10;
+    margin-left: 50px;
 }
 
 .dhx_cell.line-left {
@@ -10541,7 +10550,21 @@ body > .dhx_cell.layout_y {
 }
 
 .diagram_editor_container {
-    width: 100%;
+    width: 1600px;
     height: 94%;
 }
 
+.diagram_editor_container.dhx_cell.layout_y {
+    height: 100%;
+    margin-top: -377px;
+}
+
+.
+.dhx_cell.shadow-bottom {
+    margin-left: 50px !important;
+}
+
+.diagram_editor_container.dhx_cell.layout_y {
+    height: 100% !important;
+    margin-top: -380px!important;
+}

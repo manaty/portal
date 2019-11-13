@@ -1994,12 +1994,10 @@ div.dhx_modal_cover {
 }
 
 .gantt-container {
-    /*height: 500px;*/
-    /*width: 100%;*/
-    width: 85%;
-    margin-left: 238px;
+    width: 1365px;
+    margin-left: 249px;
     height: 70%;
-    margin-top: 40px;
+    margin-top: -300px;
 }
 
 .zoom-bar {
@@ -2007,7 +2005,8 @@ div.dhx_modal_cover {
     line-height: 40px;
     padding: 5px 10px;
     margin-left: 750px;
-    margin-top: 20px
+    margin-top: -150px;
+    display: inline-flex;
 }
 
 .radio-label {

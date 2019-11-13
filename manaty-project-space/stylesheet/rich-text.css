@@ -6,8 +6,8 @@
     margin-right: auto;
     justify-content: center;
     width: 85%;
-    margin-left: 238px;
-    margin-top: 37px;
+    margin-left: 825px;
+    margin-top: -350px;
     height: 94%;
 
 }
@@ -1192,9 +1192,8 @@ body {
 
 .dhx_richtext .dhx_toolbar__list {
     padding-top: 8px;
-    padding-bottom: 8px;
-    margin-left: 220px;
-
+    /*padding-bottom: 8px;*/
+    margin-left: 210px;
 }
 
 .dhx_richtext .dhx_toolbar-button:focus, .dhx_richtext .dhx_toolbar-button:hover {
@@ -2332,6 +2331,6 @@ body {
 }
 
 .dhx_layout-rows {
-    width: 100% !important;
+    width:1360px  !important;
 }
 

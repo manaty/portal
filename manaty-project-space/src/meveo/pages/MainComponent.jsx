@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import {withRouter} from 'react-router-dom';
 
 import HeaderComponent from './HeaderComponent.jsx';
-import MenuComponent from './MenuComponent.jsx';
 
 import LocalStorageService from '../services/LocalStorageService'
 
@@ -56,7 +55,6 @@ class MainComponent extends Component{
 				<header className="header" >
 					<HeaderComponent location = {this.props.location.pathname} {...this.props} />
 				</header>
-				<MenuComponent/>
 				<div className="content" id="content">
 					{this.props.children}
 					<span className="footer-div user-footer"></span>

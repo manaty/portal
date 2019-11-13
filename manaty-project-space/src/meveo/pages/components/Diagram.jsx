@@ -1,8 +1,16 @@
 
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom';
+import DiagramEditor from '../components/DiagramEditor.jsx';
 
 class Diagram extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isDiagram: true,
+    };
+    this.changePage = this.changePage.bind(this);
+  }
+
   componentDidMount() {
     var diagram = new window.dhx.Diagram("diagram_container", { type: "org",defaultShapeType: "img-card" });
     diagram.data.parse([
@@ -43,13 +51,25 @@ class Diagram extends Component {
     ]);
   }
 
+  changePage() {
+    this.setState({
+      isDiagram: !this.state.isDiagram
+    });
+  }
+
+  renderDiagram() {
+    return (
+        <div id="diagram_container" className="diagram_container"/>
+    );
+  }
   render() {
     return (
         <div>
-            <Link to={'/diagram_editor'}>
-              <button className="square_button">Edit</button>
-            </Link>
-            <div id="diagram_container" className="diagram_container"/>
+              <button className="square_diagram_btn" onClick={this.changePage} >Edit</button>
+          {this.state.isDiagram ?
+              this.renderDiagram():
+              <DiagramEditor />
+          }
         </div>
     );
   }
