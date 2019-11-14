@@ -5,21 +5,8 @@ export const keycloak_path = "";
 export const provider = "DEMO";
 
 export const index_url = baseUrl;
-export const faq_url = baseUrl + "/faq";
-export const how_it_works_url = baseUrl + "/how-it-works";
-export const contact_url = baseUrl + "/contact";
-export const about_url = baseUrl + "/about";
-export const team_url = baseUrl + "/team";
-export const projects_url = baseUrl + "/projects";
-export const change_password = baseUrl + "/change_password";
-export const diagram_editor = baseUrl + "/diagram_editor";
-export const scheduler_url = baseUrl + "/scheduler";
-export const diagram_url = baseUrl + "/diagram";
-export const gantt_url = baseUrl + "/gantt";
-export const spreadsheet_url = baseUrl + "/spreadsheet";
-export const vault_url = baseUrl + "/vault";
-export const pivot_url = baseUrl + "/pivot";
-export const richtext_url = baseUrl + "/richtext";
+export const project_url = baseUrl + "/:projectId";
+
 
 
 export const tokenRefreshRate = 300; // in seconds

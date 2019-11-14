@@ -1,6 +1,5 @@
 
 import React, { Component } from 'react';
-import Diagram from '../components/Diagram.jsx';
 
 const dataDiagram = [
   {
@@ -40,13 +39,9 @@ const dataDiagram = [
 ];
 
 class DiagramEditor extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      isDiagramEditor: true,
-    };
-    this.changePageDiagram = this.changePageDiagram.bind(this);
-  }
+  state = {
+    data: [],
+  };
 
   componentDidMount() {
     var editor = new window.dhx.DiagramEditor("diagram_container", { type: "org", shapeType: "img-card" });
@@ -63,28 +58,18 @@ class DiagramEditor extends Component {
       return true;
     }
 
-    if (this.state.data == nextState.data) {
+    if (this.state.data === nextState.data) {
       return false;
     }
     return true;
   }
 
-  changePageDiagram() {
-    this.setState({
-      isDiagramEditor: !this.state.isDiagramEditor
-    });
-  }
 
   handleForm=() => {
     const value = this.state.data.map((item,index) => (item.text || item.title ? `${index +1}. ${item.text} -- ${item.title}\n` : null));
   alert(value);
 };
 
-  renderDiagramEditor() {
-    return (
-        <div id="diagram_container" className="diagram_editor_container" style={{ marginTop: '38px',flexDirection: 'initial' }}/>
-    );
-  }
 
   render() {
     const { data } = this.state;
@@ -95,11 +80,7 @@ class DiagramEditor extends Component {
     return (
         <div>
           <div>
-              <button className="squares_btn" onClick={this.changePageDiagram} >Back</button>
-            {this.state.isDiagramEditor ?
-                this.renderDiagramEditor():
-                <Diagram />
-            }
+            <div id="diagram_container" className="diagram_editor_container" style={{ marginTop: '38px',flexDirection: 'initial' }}/>
           </div>
           <div>
             <button className="square_btn" onClick={this.handleForm}>Save</button>

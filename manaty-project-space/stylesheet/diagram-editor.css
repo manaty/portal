@@ -10496,6 +10496,7 @@ body .shapesbar_cont {
 .dhx_cell.layout_y {
     flex-direction: column;
     margin-top: -375px;
+    margin-left: 340px;
 }
 
 .dhx_cell.flex {
@@ -10567,4 +10568,5 @@ body > .dhx_cell.layout_y {
 .diagram_editor_container.dhx_cell.layout_y {
     height: 100% !important;
     margin-top: -380px!important;
+
 }

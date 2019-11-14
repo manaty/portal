@@ -1,11 +1,12 @@
 import React from "react";
 import {withRouter} from "react-router-dom";
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
-import Diagram from '../components/Diagram.jsx';
+import Diagram from '../components/ProjectDiagram.jsx';
 import Scheduler from '../components/Scheduler.jsx';
 import SpreadSheet from '../components/SpreadSheet.jsx';
 import Pivot from '../components/Pivot.jsx';
 import LoadGantt from './LoadGantt.jsx';
+import { projectSpace } from '../../actions/UserProfileAction';
 // import Gantt from '../components/Gantt.jsx';
 import Vault from '../components/Vault.jsx';
 import RichText from '../components/RichText.jsx';
@@ -16,17 +17,13 @@ class ProjectSpace extends React.Component {
         super();
         this.state = {};
     }
-
-    componentWillMount() {
-    }
-
-    componentWillUnmount() {
-    }
-
     componentDidMount() {
+        const { match: { params: { projectId } } } = this.props;
+        projectSpace(projectId);
     }
 
     render() {
+        const { match: { params: { projectId } } } = this.props;
         return (
             <Tabs defaultIndex={0}>
                 <div className="main_sidebar">
