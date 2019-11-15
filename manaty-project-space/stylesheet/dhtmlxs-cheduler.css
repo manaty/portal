@@ -1620,7 +1620,10 @@ div.icon_delete {
     overflow: hidden;
     background-color: #fff;
     font-family: Arial, san-serif;
-    font-size: 12px
+    font-size: 12px;
+    width: 1360px !important;
+    height: 100%;
+    margin-left: 212px !important;
 }
 
 .dhx_cal_container div {

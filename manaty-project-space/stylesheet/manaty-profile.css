@@ -1563,7 +1563,9 @@ article {
     margin-bottom: 10px;
     margin-left: 10px;
     list-style: none;
-    font-size: 25px
+    font-size: 25px;
+    height: 310px;
+
 }
 
 

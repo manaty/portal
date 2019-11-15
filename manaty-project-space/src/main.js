@@ -47,6 +47,7 @@ keycloak.init({
 					<MainComponent kc={keycloak}>
 						<Route exact path={properties.index_url} component={ProjectSpace}/>
 						<Route exact path={properties.project_url} component={ProjectSpace}/>
+			            <Route exact path={properties.change_password} component={ChangePassword}/>
 					</MainComponent>
 				</HashRouter>
 

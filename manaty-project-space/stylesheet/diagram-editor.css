@@ -10553,6 +10553,7 @@ body > .dhx_cell.layout_y {
 .diagram_editor_container {
     width: 1600px;
     height: 94%;
+    margin-top: 32px !important;
 }
 
 .diagram_editor_container.dhx_cell.layout_y {

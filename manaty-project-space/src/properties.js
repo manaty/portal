@@ -5,6 +5,7 @@ export const keycloak_path = "";
 export const provider = "DEMO";
 
 export const index_url = baseUrl;
+export const change_password = baseUrl + "/change_password";
 export const project_url = baseUrl + "/:projectId";
 
 

@@ -2,13 +2,9 @@ export default class Project {
   constructor(datum) {
     this.code = datum.code;
 
-      this.project = datum.project;
-      this.logo = datum.logo;
-      this.link = datum.link;
-      this.contacts = datum.contacts;
-      this.assemblaLink = datum.assemblaLink;
-      this.teams = datum.teams;
-      this.longDescription = datum.longDescription;
+    this.projectSpaceLink = datum.projectSpaceLink;
+    this.externalProjectSpace = datum.externalProjectSpace;
+    this.projectSpaceModule = datum.projectSpaceModule;
 
   }
 
@@ -20,8 +16,6 @@ export default class Project {
     return JSON.stringify(this);
   }
 
-  get entityCode(){
-    return "Client";
-  }
+
 
 }
