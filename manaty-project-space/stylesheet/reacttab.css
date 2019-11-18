@@ -14,7 +14,6 @@
     border: 1px solid transparent;
     border-bottom: none;
     bottom: -1px;
-    /* position: relative; */
     list-style: none;
     padding: 6px 12px;
     cursor: pointer;
@@ -23,7 +22,6 @@
 .react-tabs__tab--selected {
     background: white;
     color: #1d9c9c;
-    border: 10px solid white;
 }
 
 .react-tabs__tab--disabled {
@@ -61,7 +59,6 @@
 }
 .li_tab:hover{
     background-color:#0f6b6b;
-    border: 10px solid #0f6b6b;
 }
 .li_tab a{
     padding: 0 1px;

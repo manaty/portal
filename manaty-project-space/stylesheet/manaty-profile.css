@@ -563,7 +563,7 @@ article {
 }
 
 .tabsli {
-    padding-left: 10px;
+    padding-left: 18px;
 }
 
 .color_profile {
@@ -1559,12 +1559,11 @@ article {
 }
 
 .main_sidebar > ul {
-    margin-top: 50px;
     margin-bottom: 10px;
     margin-left: 10px;
     list-style: none;
-    font-size: 25px;
-    height: 310px;
+    font-size: 29px;
+    height: 360px;
 
 }
 
